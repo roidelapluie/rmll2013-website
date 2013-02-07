@@ -1,1 +1,1 @@
-Basic template for hyde.
+Static website for the LSM 2013

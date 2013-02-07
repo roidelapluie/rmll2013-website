@@ -8,6 +8,9 @@ body{
     margin:auto;
     padding:0px;
 }
+a{
+    color: rgb(133, 148, 61);
+}
 #header .lang a{
     color:black;
 }
