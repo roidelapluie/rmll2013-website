@@ -1,0 +1,59 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Oswald','Arial','Helvetica','Sans';
+}
+.content{
+    width:870px;
+    margin:auto;
+    padding:0px;
+}
+#header .lang a{
+    color:black;
+}
+.box{
+    background-color:white;
+    border-bottom: 2px rgb(68,68,68) solid;
+}
+.contentbox{
+    background-color:white;
+    border-bottom: 2px rgb(68,68,68) solid;
+    padding:2em;
+}
+strong{
+    color:rgb(186, 206, 86);
+    font-weight: normal;
+}
+#scrolling img{
+    /*position: relative;
+    float:left;*/
+}
+#scrolling{
+    padding:0.5em;
+    margin-bottom:1em;
+/*  width: 2520px; 
+    height:35px;*/
+}
+#page{
+    background-color: rgb(204, 204, 204);
+    width:870px;
+    margin:2em auto;
+    padding:1em;
+}
+#menu{
+    background: black;
+    margin:0px;
+    padding:0.5em;
+}
+#menu a{
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#header .lang{
+    float:right;
+    padding:0.5em;
+}
+#header img{
+    padding: 2em;
+}
