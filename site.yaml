@@ -23,6 +23,9 @@ context:
                 -
                     name: Participer
                     url: /fr/participer.html
+                -
+                    name: Contact
+                    url: /fr/contact.html
             en:
                 -
                     name: Home
@@ -30,6 +33,16 @@ context:
                 -
                     name: Getting involved
                     url: /en/gettinginvolved.html
+                -
+                    name: Contact
+                    url: /en/contact.html
+        translations:
+            fr:
+                lastnews: Dernières nouvelles
+                community: Communauté/organisation
+            en:
+                lastnews: Last news
+                community: Community/organisation
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
@@ -41,7 +54,6 @@ sorter:
         reverse: true
         filters:
             source.kind: html
-            meta.listable: true
 tagger:
     sorter: time
     archives:
