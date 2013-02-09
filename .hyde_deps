@@ -84,4 +84,5 @@
 !!python/unicode 'media/js/supersubs.js': []
 !!python/unicode 'media/js/supposition.js': []
 !!python/unicode 'media/js/video.js': []
+!!python/unicode 'nl/index.html': [base.j2]
 !!python/unicode 'portfolio/index.html': [base.j2]

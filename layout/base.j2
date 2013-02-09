@@ -101,10 +101,11 @@ jQuery.extend(Drupal.settings, {
 
             <div class="content">
                 <ul class="language-switcher-locale-url">
-                    <li class="{{resource.meta.language}} first active"><a href="/{{resource.meta.language}}" class="language-link">{{ languages[resource.meta.language] }}</li>
-            {% for translation in resource.translations%}
-            <li class="fr {%if loop.last%}last{%else%}middle{%endif%}"><a class="language-link active" href="{{translation.full_url}}">{{ languages[translation.meta.language] }}</a>
-            {% endfor %}
+                    {% for language in languages %}
+                    <li class="{{language[0]}} {%if loop.first%}first{%elif loop.last%}last{%else%}middle{%endif%} {%if language[0] == resource.meta.language%}active{%endif%}">
+                    <a href="{%if resource.translations[language[0]]%}{{translation.full_url}}{%else%}/{{language[0]}}{%endif%}" class="language-link">{{ language[1] }}</a>
+                    </li>
+                    {%endfor%}
             </ul>  </div>
         </div>
     </div>
