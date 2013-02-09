@@ -4,7 +4,7 @@ language: en
 sidebar:
     -
         name: RMLL %2012%
-        url: http://2012.rmll.info/
+        url: http://2012.rmll.info/en/
     -
         name: APPLICATION %FILE%
         url: /en/application.html
