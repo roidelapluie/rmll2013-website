@@ -40,9 +40,11 @@ context:
             fr:
                 lastnews: Dernières nouvelles
                 community: Communauté/organisation
+                brusselsedition: Bruxelles, 14e édition
             en:
                 lastnews: Last news
                 community: Community/organisation
+                brusselsedition: Brussels, 14th edition
         yourlibreproject:
             fr: /fr/votre-projet-libre.html
             en: /en/your-libre-project.html
