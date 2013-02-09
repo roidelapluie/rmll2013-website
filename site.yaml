@@ -15,6 +15,7 @@ context:
         languages:
             fr: Français
             en: English
+            nl: Nederlands
         menu:
             fr:
                 -
