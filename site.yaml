@@ -28,8 +28,18 @@ context:
                     name: Participer
                     url: /fr/participer.html
                 -
-                    name: Contact
-                    url: /fr/contact.html
+                    name: A propos des RMLL
+                    url: /fr/a-propos-des-rmll/index.html
+                    dropdown:
+                        -
+                            name: Historique des RMLL
+                            url: /fr/a-propos-des-rmll/historique.html
+                        -
+                            name: Définition du logiciels libres
+                            url: /fr/a-propos-des-rmll/definition-du-logiciel-libre.html
+                        -
+                            name: Contact et listes de diffusion
+                            url: /fr/a-propos-des-rmll/contact.html
             en:
                 -
                     name: Home
