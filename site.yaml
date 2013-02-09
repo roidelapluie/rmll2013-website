@@ -12,6 +12,9 @@ plugins:
     - hyde.ext.plugins.languages.LanguagePlugin
 context:
     data:
+        languages_enabled:
+            - fr
+            - en
         languages:
             fr: Français
             en: English
@@ -46,6 +49,10 @@ context:
                 lastnews: Last news
                 community: Community/organisation
                 brusselsedition: Brussels, 14th edition
+            nl:
+                lastnews: Laatste Nieuws
+                community: Gemeenschap/organisatie
+                brusselsedition: Brussel, 14de editie
         yourlibreproject:
             fr: /fr/votre-projet-libre.html
             en: /en/your-libre-project.html
