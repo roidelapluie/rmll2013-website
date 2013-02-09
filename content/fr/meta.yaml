@@ -1,12 +1,13 @@
 extends: base.j2
 language: fr
+header_image: header-home-fr.png
 default_block: post
 sidebar:
     -
         name: RMLL %2012%
         url: http://2012.rmll.info/
     -
-        name: DOSSIER DE %CANDIDATURE% (PDF)
-        url: /assets/candidature-bruxelles.pdf
+        name: DOSSIER DE %CANDIDATURE%
+        url: /fr/candidature.html
 
 

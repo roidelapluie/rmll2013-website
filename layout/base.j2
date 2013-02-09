@@ -89,10 +89,10 @@ jQuery.extend(Drupal.settings, {
   <div class="container">
     <div class="span-22 push-1">
       <div class="span-6 first logo">
-          <a href="/"><img src="/media/img/rmll{{ resource.meta.language }}.png" alt="RMLL Rencontres Mondiales du Logiciel Libre" width="206" height="83" /></a>
+          <a href="/{{ resource.meta.language }}"><img src="/media/img/rmll{{ resource.meta.language }}.png" alt="RMLL Rencontres Mondiales du Logiciel Libre" width="206" height="83" /></a>
               </div>
       <div class="span-16 last event">
-          <a href="/fr"><img src="/media/img/brussels-2013-{{ resource.meta.language }}.png" alt="{{translation[resource.meta.language]['brussels-edition']}}" title="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire2.svg CC-BY-SA 3.0 Unported. Work by Chatsam." /></a>
+          <a href="/{{ resource.meta.language }}"><img src="/media/img/brussels-2013-{{ resource.meta.language }}.png" alt="{{translation[resource.meta.language]['brussels-edition']}}" title="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire2.svg CC-BY-SA 3.0 Unported. Work by Chatsam." /></a>
               </div>
     </div>
     <div id="languages">
@@ -136,7 +136,7 @@ jQuery.extend(Drupal.settings, {
             <div class="span-22 band shadow">
                 <div id="block-block-1" class="block block-block">
                     <div class="content">
-                        <img src="/media/img/header-home-{{resource.meta.language}}.png" width="850" height="170" alt="" />  </div>
+                        <img src="/media/img/{{resource.meta.header_image}}" width="850" height="170" alt="" />  </div>
                 </div>
                 <div id="librelogos">
                     <div class="fader left"></div>
@@ -241,7 +241,7 @@ jQuery.extend(Drupal.settings, {
                 </div>
             </div>
             <div id="community" class="span-9 last block">
-                <h4 class="fr">Communauté / organisation</h4>
+                <h4 class="{{resource.meta.language}}">{{ translations[resource.meta.language]['community'] }}</h4>
                 <div class="data green">
                     <span class="date">
                     </span>
