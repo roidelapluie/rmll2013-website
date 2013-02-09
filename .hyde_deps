@@ -1,5 +1,6 @@
 !!python/unicode '.htaccess': []
 !!python/unicode 'about.html': [base.j2]
+!!python/unicode 'assets/assets-list': []
 !!python/unicode 'blog/angry-post.html': [blog.j2, base.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
