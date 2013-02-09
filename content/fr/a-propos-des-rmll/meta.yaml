@@ -1,0 +1,10 @@
+header_image: apropos-home-fr.png
+sidebar:
+    -
+        name: RMLL %2012%
+        url: http://2012.rmll.info/
+    -
+        name: DOSSIER DE %CANDIDATURE%
+        url: /fr/candidature.html
+
+
