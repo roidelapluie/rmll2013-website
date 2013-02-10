@@ -150,8 +150,19 @@ jQuery.extend(Drupal.settings, {
 
                     <ul id="superfish-1" class="sf-menu main-menu sf-horizontal sf-style-none sf-total-items-{{menu[resource.meta.language]|length}}">
                     {% for link in menu[resource.meta.language]|reverse %}
-                    <li class="{%if loop.first%}first{%elif loop.last%}last{%else%}middle{%endif%} {{loop.cycle('odd', 'even')}} sf-item-{{loop.revindex}} sf-depth-1 {%if link.dropdown%}sf-total-items-{{link.dropdown|length}}{%else%}sf-no-children{%endif%}">
-                            <a href="{{link.url}}">{{link.name}}</a>
+                    <li class="
+                    {%- if loop.first -%}
+                        first
+                    {%- elif loop.last -%}
+                        last
+                    {%- else -%}
+                        middle
+                    {%- endif %} {{loop.cycle('odd', 'even')}} sf-item-{{loop.revindex}} sf-depth-1 {%if link.dropdown -%}
+                        sf-total-items-{{link.dropdown|length}}
+                    {%- else -%}
+                        sf-no-children
+                    {%- endif %}">
+                    <a {% if link.menu_uid == resource.meta.menu_uid %}class="active" {% endif %}href="{{link.url}}">{{link.name}}</a>
                         {% if link.dropdown%}
                         <ul>
                         {% for sublink in link.dropdown %}
