@@ -104,13 +104,35 @@ jQuery.extend(Drupal.settings, {
                     {% if resource.meta.language in languages_enabled %}
                     {% for language in languages_enabled %}
                     <li class="{{language}} {%if loop.first%}first{%elif loop.last%}last{%else%}middle{%endif%} {%if language == resource.meta.language%}active{%endif%}">
-                    <a href="{%if resource.translations[language]%}{{translation.full_url}}{%else%}/{{language}}{%endif%}" class="language-link">{{ languages[language] }}</a>
+                    <a href="
+                        {%- set break=false -%}
+                        {%- for translated in resource.translations -%}
+                            {%- if translated.meta.language == language -%}
+                                {{translated.full_url}}
+                                {%- set break=true -%}
+                            {%- endif -%}
+                            {%- if loop.last and not break -%}
+                                /{{language}}
+                            {%- endif -%}
+                            {%- endfor -%}
+                        " class="language-link">{{ languages[language] }}</a>
                     </li>
                     {%endfor%}
                     {%else%}
                     {% for language in languages %}
                     <li class="{{language[0]}} {%if loop.first%}first{%elif loop.last%}last{%else%}middle{%endif%} {%if language[0] == resource.meta.language%}active{%endif%}">
-                    <a href="{%if resource.translations[language[0]]%}{{translation.full_url}}{%else%}/{{language[0]}}{%endif%}" class="language-link">{% if not language[0] in languages_enabled%}*{%endif%}{{ language[1] }}</a>
+                    <a href="
+                        {%- set break=false -%}
+                        {%- for translated in resource.translations -%}
+                            {%- if translated.meta.language == language[0] -%}
+                                {{translated.full_url}}
+                                {%- set break=true -%}
+                            {%- endif -%}
+                            {%- if loop.last and not break -%}
+                                /{{language[0]}}
+                            {%- endif -%}
+                            {%- endfor -%}
+                        " class="language-link">{% if not language[0] in languages_enabled %}*{%endif%}{{ language[1] }}</a>
                     </li>
                     {%endfor%}
                     {%endif%}

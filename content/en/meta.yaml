@@ -1,4 +1,6 @@
 ---
+extends: base.j2
+default_block: post
 header_image: header-home-en.png
 language: en
 sidebar:

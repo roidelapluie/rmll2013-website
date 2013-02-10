@@ -32,6 +32,9 @@ context:
                     url: /fr/a-propos-des-rmll/index.html
                     dropdown:
                         -
+                            name: Le libre est à vous!
+                            url: /fr/a-propos-des-rmll/le-libre-est-a-vous.html
+                        -
                             name: Historique des RMLL
                             url: /fr/a-propos-des-rmll/historique.html
                         -
@@ -48,8 +51,21 @@ context:
                     name: Getting involved
                     url: /en/gettinginvolved.html
                 -
-                    name: Contact
-                    url: /en/contact.html
+                    name: About the LSM
+                    url: /en/about-lsm/index.html
+                    dropdown:
+                        -
+                            name: Libre is yours!
+                            url: /en/about-lsm/libre-is-yours.html
+                        -
+                            name: History of the LSM
+                            url: /en/about-lsm/history.html
+                        -
+                            name: Definition of Libre Software
+                            url: /en/about-lsm/definition-of-libre-software.html
+                        -
+                            name: Contact and mailing lists
+                            url: /en/about-lsm/contact.html
         translations:
             fr:
                 lastnews: Dernières nouvelles
