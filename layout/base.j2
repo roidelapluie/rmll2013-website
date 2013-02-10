@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset=utf-8 />
-        <title>RMLL/LSM 2013 - {{ resource.meta.title }}</title>
+        <title>{{ resource.meta.title }} - {{ translations[resource.meta.language]['title'] }}</title>
         <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
         <style type="text/css" media="all">@import url("/media/css/system.base.css");
             @import url("/media/css/system.menus.css");
@@ -299,6 +299,9 @@ jQuery.extend(Drupal.settings, {
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        {{ translations[resource.meta.language]['photocopyright'] }}
     </div>
 </div>
 <!-- #RMLL-end-footer -->
