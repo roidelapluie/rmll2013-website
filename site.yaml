@@ -80,6 +80,25 @@ context:
                         -
                             name: Contact and mailing lists
                             url: /en/about-lsm/contact.html
+        news:
+            fr:
+                information:
+                    text: 'Le site web des Rencontres Mondiales des Logiciels Libres 2013 à Bruxelles est en ligne!'
+                    url: /fr
+                    date: 8 février 2013
+                organisation:
+                    text: "L'Appel à conférences est lancé! Le formulaire de soumission sera disponible dans les prochains jours."
+                    url: /fr/ac.html
+                    date: 11 février 2013
+            en:
+                information:
+                    text: 'The website of the Libre Software Meeting 2013 in Brussels is online!'
+                    url: /en
+                    date: 8th February 2013
+                organisation:
+                    text: "The Call for Paper is open! The submission form will be available in the next few days."
+                    url: /en/cfp.html
+                    date: 11 février 2013
         translations:
             fr:
                 lastnews: Dernières nouvelles

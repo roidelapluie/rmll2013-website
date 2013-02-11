@@ -283,19 +283,13 @@ jQuery.extend(Drupal.settings, {
             <div id="news" class="span-9 first block">
                 <h4 class="{{resource.meta.language}}">{{ translations[resource.meta.language]['lastnews'] }}</h4>
                 <div class="data green">
-                        {% for res in site.content.walk_resources_sorted_by_time() %}
-                        {% if res.meta.language == resource.meta.language %}
-                        <span class="date">{{res.meta.created.strftime('%Y-%m-%d')}}</span> <a href="/{{res.url}}">{{res.meta.title}}</a>
-                        {%break%}
-                        {% endif %}
-                        {% endfor %}
+                    <span class="date">{{ news[resource.meta.language]['information']['date'] }}</span> <a href="{{ news[resource.meta.language]['information']['url'] }}">{{ news[resource.meta.language]['information']['text'] }}</a>
                 </div>
             </div>
             <div id="community" class="span-9 last block">
                 <h4 class="{{resource.meta.language}}">{{ translations[resource.meta.language]['community'] }}</h4>
                 <div class="data green">
-                    <span class="date">
-                    </span>
+                    <span class="date">{{ news[resource.meta.language]['organisation']['date'] }}</span> <a href="{{ news[resource.meta.language]['organisation']['url'] }}">{{ news[resource.meta.language]['organisation']['text'] }}</a>
                 </div>
             </div>
         </div>
