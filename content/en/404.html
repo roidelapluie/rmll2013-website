@@ -1,0 +1,31 @@
+---
+title: Page introuvable
+extends: base.j2
+default_block: post
+uuid: 404
+---
+
+{%markdown%}
+
+Page not found (error 404)
+====
+
+#### The requested page does not exist anymore or has been moved... Here is a sitemap to help you:
+
+{%endmarkdown%}
+<ul>
+{% for link in menu[resource.meta.language] %}
+<li>
+<a href="{{link.url}}">{{link.name}}</a>
+{% if link.dropdown %}
+<ul>
+    {% for sublink in link.dropdown %}
+    <li>
+    <a href="{{sublink.url}}">{{sublink.name}}</a>
+    </li>
+    {%endfor%}
+</ul>
+{%endif%}
+</li>
+{%endfor%}
+</ul>

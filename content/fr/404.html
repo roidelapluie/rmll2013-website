@@ -1,0 +1,31 @@
+---
+title: Page introuvable
+extends: base.j2
+default_block: post
+uuid: 404
+---
+
+{%markdown%}
+
+Page introuvable (erreur 404)
+====
+
+#### La page que vous avez demandée n'existe plus ou a été déplacée... Vous trouverez ci-dessous un plan du site.
+
+{%endmarkdown%}
+<ul>
+{% for link in menu[resource.meta.language] %}
+<li>
+<a href="{{link.url}}">{{link.name}}</a>
+{% if link.dropdown %}
+<ul>
+    {% for sublink in link.dropdown %}
+    <li>
+    <a href="{{sublink.url}}">{{sublink.name}}</a>
+    </li>
+    {%endfor%}
+</ul>
+{%endif%}
+</li>
+{%endfor%}
+</ul>
