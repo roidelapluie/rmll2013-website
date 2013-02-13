@@ -22,7 +22,7 @@ context:
         menu:
             nl:
                 -
-                    name: Hooftpagina
+                    name: Hoofdpagina
                     url: /nl/index.html
                     menu_uid: home
                 -
@@ -129,7 +129,7 @@ context:
                 lastnews: Laatste Nieuws
                 community: Gemeenschap/organisatie
                 brusselsedition: Brussel, 14de editie
-                title: 14th Libre Software Meeting
+                title: 14de Libre Software Meeting
                 photocopyright: 'Photographes of the header: <a href="http://en.wikipedia.org/wiki/File:Bruxelles_Manneken_Pis.jpg">Manneken Pis</a>, by <a href="http://commons.wikimedia.org/wiki/User:Myrabella">Myrabella</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
         yourlibreproject:
             fr: /fr/votre-projet-libre.html

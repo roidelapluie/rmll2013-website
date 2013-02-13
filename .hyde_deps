@@ -77,4 +77,7 @@
 !!python/unicode 'media/js/supersubs.js': []
 !!python/unicode 'media/js/supposition.js': []
 !!python/unicode 'media/js/video.js': []
+!!python/unicode 'nl/404.html': [base.j2]
 !!python/unicode 'nl/index.html': [base.j2]
+!!python/unicode 'nl/over-de-lsm/contact.html': [base.j2]
+!!python/unicode 'nl/over-de-lsm/index.html': [base.j2]
