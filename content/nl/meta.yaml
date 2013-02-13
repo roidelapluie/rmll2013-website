@@ -1,7 +1,7 @@
----
-header_image: header-home-nl.png
 language: nl
+header_image: header-home-nl.png
 sidebar:
     -
         name: LSM %2012%
-        url: http://2012.rmll.info/en/
+        url: http://2012.rmll.info/
+

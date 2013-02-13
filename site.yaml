@@ -20,6 +20,19 @@ context:
             en: English
             nl: Nederlands
         menu:
+            nl:
+                -
+                    name: Hooftpagina
+                    url: /nl/index.html
+                    menu_uid: home
+                -
+                    name: Over de LSM
+                    url: /nl/over-de-lsm/index.html
+                    menu_uid: about
+                    dropdown:
+                        -
+                            name: Contact en mailing lijsten 
+                            url: /nl/over-de-lsm/contact.html
             fr:
                 -
                     name: Accueil
@@ -121,6 +134,7 @@ context:
         yourlibreproject:
             fr: /fr/votre-projet-libre.html
             en: /en/your-libre-project.html
+            nl: /en/your-libre-project.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
