@@ -19,6 +19,7 @@ context:
             fr: Français
             en: English
             nl: Nederlands
+            eo: Esperanto
         menu:
             nl:
                 -
@@ -33,6 +34,36 @@ context:
                         -
                             name: Contact en mailing lijsten 
                             url: /nl/over-de-lsm/contact.html
+            eo:
+                -
+                    name: Ĉefpaĝo
+                    url: /eo/index.html
+                    menu_uid: home
+                -
+                    name: Partopreni
+                    url: /eo/partopreni.html
+                    menu_uid: participate
+                -
+                    name: Kunagantoj kaj sponsoroj
+                    url: /eo/kunagantoj-kaj-sponsoroj.html
+                    menu_uid: partners
+                -
+                    name: Pri LSM
+                    url: /eo/pri-lsm/index.html
+                    menu_uid: about
+                    dropdown:
+                        -
+                            name: La libero estas al vi!
+                            url: /eo/pri-lsm/la-libero-estas-al-vi.html
+                        -
+                            name: Historio de la LSM
+                            url: /eo/pri-lsm/historio.html
+                        -
+                            name: Difino de la liberaj programaroj
+                            url: /eo/pri-lsm/difino-de-la-liberaj-programaroj.html
+                        -
+                            name: Kontakto kaj dissendolistoj
+                            url: /eo/pri-lsm/kontakto.html
             fr:
                 -
                     name: Accueil

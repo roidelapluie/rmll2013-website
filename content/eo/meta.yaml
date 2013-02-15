@@ -1,0 +1,10 @@
+extends: base.j2
+language: eo
+header_image: header-home-eo.png
+default_block: post
+sidebar:
+    -
+        name: RMLL %2012%
+        url: http://2012.rmll.info/
+
+
