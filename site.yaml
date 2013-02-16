@@ -34,6 +34,9 @@ context:
                         -
                             name: Geschiedenis van de LSM
                             url: /nl/over-de-lsm/geschiedenis.html
+                        -
+                            name: Definitie van vrije software
+                            url: /nl/over-de-lsm/definitie-van-vrije-software.html
                     dropdown:
                         -
                             name: Contact en mailing lijsten 
