@@ -19,7 +19,6 @@ context:
             fr: Français
             en: English
             nl: Nederlands
-            eo: Esperanto
         menu:
             nl:
                 -
@@ -37,7 +36,6 @@ context:
                         -
                             name: Definitie van vrije software
                             url: /nl/over-de-lsm/definitie-van-vrije-software.html
-                    dropdown:
                         -
                             name: Contact en mailing lijsten 
                             url: /nl/over-de-lsm/contact.html
