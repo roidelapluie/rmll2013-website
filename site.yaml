@@ -45,6 +45,10 @@ context:
                     url: /fr/index.html
                     menu_uid: home
                 -
+                    name: Appel à conférences
+                    url: /fr/ac.html
+                    menu_uid: ac
+                -
                     name: Participer
                     url: /fr/participer.html
                     menu_uid: participate
@@ -74,6 +78,10 @@ context:
                     name: Home
                     url: /en/index.html
                     menu_uid: home
+                -
+                    name: Call for papers
+                    url: /en/cfp.html
+                    menu_uid: ac
                 -
                     name: Getting involved
                     url: /en/gettinginvolved.html
@@ -106,7 +114,7 @@ context:
                     url: /fr
                     date: 8 février 2013
                 organisation:
-                    text: "L'Appel à conférences est lancé! Le formulaire de soumission sera disponible dans les prochains jours."
+                    text: "L'Appel à conférences est lancé et le formulaire de soumission est en ligne."
                     url: /fr/ac.html
                     date: 11 février 2013
             en:
