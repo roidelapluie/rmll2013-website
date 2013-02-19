@@ -10,6 +10,9 @@ plugins:
     - hyde.ext.plugins.syntext.SyntextPlugin
     - hyde.ext.plugins.textlinks.TextlinksPlugin
     - hyde.ext.plugins.languages.LanguagePlugin
+#jinja2:
+#    extensions:
+#        - 'hyde.ext.templates.hydewiki.MediawikiExtension'
 context:
     data:
         languages_enabled:
@@ -47,7 +50,7 @@ context:
                 -
                     name: Appel à conférences
                     url: /fr/ac.html
-                    menu_uid: ac
+                    menu_uid: cfp
                 -
                     name: Participer
                     url: /fr/participer.html
@@ -81,7 +84,7 @@ context:
                 -
                     name: Call for papers
                     url: /en/cfp.html
-                    menu_uid: ac
+                    menu_uid: cfp
                 -
                     name: Getting involved
                     url: /en/gettinginvolved.html
