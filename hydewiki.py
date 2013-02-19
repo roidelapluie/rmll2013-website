@@ -20,8 +20,6 @@ class MediawikiExtension(Extension):
         lineno = parser.stream.next().lineno
 
         body = parser.parse_statements(['name:endmediawiki'], drop_needle=True)
-        print 'a'
-        print 'a'
 
         #args = [parser.parse_expression()]
         return nodes.CallBlock(self.call_method('_render_mediawiki', None),
@@ -31,7 +29,6 @@ class MediawikiExtension(Extension):
         if not caller:
             return ''
         output = caller().strip()
-        print 'b'
 
         return mediawiki(self.environment, output)
 
