@@ -10,9 +10,9 @@ plugins:
     - hyde.ext.plugins.syntext.SyntextPlugin
     - hyde.ext.plugins.textlinks.TextlinksPlugin
     - hyde.ext.plugins.languages.LanguagePlugin
-#jinja2:
-#    extensions:
-#        - 'hyde.ext.templates.hydewiki.MediawikiExtension'
+jinja2:
+    extensions:
+        - 'hyde.ext.templates.hydewiki.MediawikiExtension'
 context:
     data:
         languages_enabled:
