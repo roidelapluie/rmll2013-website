@@ -5,14 +5,13 @@ default_block: post
 uuid: 404
 ---
 
-{%markdown%}
+{%mediawiki%}
 
-Page introuvable (erreur 404)
-====
+= Page introuvable (erreur 404) =
 
-#### La page que vous avez demandée n'existe plus ou a été déplacée... Vous trouverez ci-dessous un plan du site.
+==== La page que vous avez demandée n'existe plus ou a été déplacée... Vous trouverez ci-dessous un plan du site. ====
 
-{%endmarkdown%}
+{%endmediawiki%}
 <ul>
 {% for link in menu[resource.meta.language] %}
 <li>

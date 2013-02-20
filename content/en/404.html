@@ -5,14 +5,13 @@ default_block: post
 uuid: 404
 ---
 
-{%markdown%}
+{%mediawiki%}
 
-Page not found (error 404)
-====
+= Page not found (error 404) =
 
-#### The requested page does not exist anymore or has been moved... Here is a sitemap to help you:
+==== The requested page does not exist anymore or has been moved... Here is a sitemap to help you: ====
 
-{%endmarkdown%}
+{%endmediawiki%}
 <ul>
 {% for link in menu[resource.meta.language] %}
 <li>
