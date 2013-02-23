@@ -7,6 +7,9 @@ import glob
 import hashlib
 import yaml
 
+env.use_ssh_config = True
+env.hosts = ['rmll4']
+
 def _install_extension():
     local('cd hydewiki && ../../bin/python setup.py install')
     #local('cd mobileplugin && ../../bin/python setup.py install')
@@ -29,3 +32,8 @@ def gen():
 def serve():
     gen()
     _hyde('serve')
+
+@task
+def publish():
+    local('rsync deploy/ -racv rmll4:WEBSITE')
+    run('rsync WEBSITE/ -rcv /var/www')
