@@ -35,5 +35,6 @@ def serve():
 
 @task
 def publish():
-    local('rsync deploy/ -racv rmll4:WEBSITE')
-    run('rsync WEBSITE/ -rcv /var/www')
+    local('rsync deploy/ -racv --delete rmll4:WEBSITE')
+    run('rsync WEBSITE/ -rcv --delete /var/www')
+    run('cd /var/www/assets && wget --progress=dot -ci assets-list')
