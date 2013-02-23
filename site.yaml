@@ -19,6 +19,7 @@ context:
         languages_enabled:
             - fr
             - en
+            - nl
         languages:
             fr: Français
             en: English
