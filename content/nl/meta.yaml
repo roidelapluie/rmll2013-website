@@ -2,6 +2,8 @@ language: nl
 header_image: header-home-nl.png
 sidebar:
     -
-        name: LSM %2012%
-        url: http://2012.rmll.info/
-
+        name: %CALL% FOR PAPERS
+        url: /en/cfp.html
+    -
+        name: PARTNERS AND %SPONSORS%
+        url: /en/partners-and-sponsors.html

@@ -4,10 +4,10 @@ header_image: header-home-fr.png
 default_block: post
 sidebar:
     -
-        name: RMLL %2012%
-        url: http://2012.rmll.info/
+        name: APPEL À %CONFÉRENCES%
+        url: /fr/ac.html
     -
-        name: DOSSIER DE %CANDIDATURE%
-        url: /fr/candidature.html
+        name: %PARTENAIRES% ET SPONSORS
+        url: /fr/partenaires-et-sponsors.html
 
 
