@@ -5,7 +5,7 @@ header_image: header-home-en.png
 language: en
 sidebar:
     -
-        name: %CALL% FOR PAPERS
+        name: CALL FOR %PAPERS%
         url: /en/cfp.html
     -
         name: PARTNERS AND %SPONSORS%

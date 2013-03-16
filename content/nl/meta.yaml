@@ -2,7 +2,7 @@ language: nl
 header_image: header-home-nl.png
 sidebar:
     -
-        name: %CALL% FOR PAPERS
+        name: CALL FOR %PAPERS%
         url: /en/cfp.html
     -
         name: PARTNERS AND %SPONSORS%

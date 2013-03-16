@@ -31,10 +31,17 @@ context:
                     url: /nl/index.html
                     menu_uid: home
                 -
+                    name: Deelnemen
+                    url: /nl/deelnemen.html
+                    menu_uid: participate
+                -
                     name: Over de LSM
                     url: /nl/over-de-lsm/index.html
                     menu_uid: about
                     dropdown:
+                        -
+                            name: Vrijheid voor jou!
+                            url: /nl/over-de-lsm/vrijheid-voor-jou.html
                         -
                             name: Geschiedenis van de LSM
                             url: /nl/over-de-lsm/geschiedenis.html
