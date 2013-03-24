@@ -137,7 +137,16 @@ context:
                 organisation:
                     text: "We hereby announce the opportunity to submit papers for selection by the technical review committee for the RMLL/LSM 2013."
                     url: /en/cfp.html
-                    date: 11 février 2013
+                    date: 11th February 2013
+            en:
+                information:
+                    text: 'The website of the Libre Software Meeting 2013 in Brussels is online!'
+                    url: /nl
+                    date: 8 februari 2013
+                organisation:
+                    text: "We hereby announce the opportunity to submit papers for selection by the technical review committee for the RMLL/LSM 2013."
+                    url: /nl/cfp.html
+                    date: 11 februari 2013
         translations:
             fr:
                 lastnews: Dernières nouvelles

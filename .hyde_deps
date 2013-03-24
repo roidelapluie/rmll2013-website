@@ -76,6 +76,7 @@
 !!python/unicode 'media/js/supposition.js': []
 !!python/unicode 'media/js/video.js': []
 !!python/unicode 'nl/404.html': [base.j2]
+!!python/unicode 'nl/cfp.html': [base.j2]
 !!python/unicode 'nl/deelnemen.html': [base.j2]
 !!python/unicode 'nl/index.html': [base.j2]
 !!python/unicode 'nl/over-de-lsm/contact.html': [base.j2]
