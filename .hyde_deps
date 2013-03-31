@@ -79,6 +79,7 @@
 !!python/unicode 'nl/cfp.html': [base.j2]
 !!python/unicode 'nl/deelnemen.html': [base.j2]
 !!python/unicode 'nl/index.html': [base.j2]
+!!python/unicode 'nl/jouw-project.html': [base.j2]
 !!python/unicode 'nl/over-de-lsm/contact.html': [base.j2]
 !!python/unicode 'nl/over-de-lsm/definitie-van-vrije-software.html': [base.j2]
 !!python/unicode 'nl/over-de-lsm/geschiedenis.html': [base.j2]
