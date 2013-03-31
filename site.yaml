@@ -173,7 +173,7 @@ context:
         yourlibreproject:
             fr: /fr/votre-projet-libre.html
             en: /en/your-libre-project.html
-            nl: /en/your-libre-project.html
+            nl: /content/nl/jouw-project.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
