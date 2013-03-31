@@ -493,9 +493,18 @@ form.webform-client-form input.select-or-other-other.form-text {
     padding: 0px;
     padding-top: 10px;
 }
-#block-views-rmllmap-block .olPopupCloseBox {
-}
 
 #block-views-radio-articles-block {
-  padding-top:30px;
+    padding-top:30px;
+}
+
+.warningbox{
+    border: 2px solid #9eb62d;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    text-align:center;
+}
+.warningbox a{
+    color: #454f14!important;
+    font-size: 1.2em;
 }
