@@ -265,7 +265,7 @@ body.not-front #languages li.de {
 #content p {
     text-align: justify;
 }
-#content a, #content a:link, #content a:visited {
+#content a:link, #content a:visited {
     color: #9eb62d;
 }
 #content a:hover, #content a:active {

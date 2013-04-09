@@ -21,6 +21,7 @@
 !!python/unicode 'fr/ac.html': [base.j2]
 !!python/unicode 'fr/blog/index.html': [blog.j2, base.j2]
 !!python/unicode 'fr/candidature.html': [base.j2]
+!!python/unicode 'fr/detentes.html': [base.j2]
 !!python/unicode 'fr/index.html': [base.j2]
 !!python/unicode 'fr/partenaires-et-sponsors.html': [base.j2]
 !!python/unicode 'fr/participer.html': [base.j2]
