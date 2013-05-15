@@ -86,5 +86,6 @@
 !!python/unicode 'nl/over-de-lsm/geschiedenis.html': [base.j2]
 !!python/unicode 'nl/over-de-lsm/index.html': [base.j2]
 !!python/unicode 'nl/over-de-lsm/vrijheid-voor-jou.html': [base.j2]
+!!python/unicode 'nl/partners-and-sponsors.html': [base.j2]
 !!python/unicode 'nl/partners-en-sponsors.html': [base.j2]
 !!python/unicode 'sponsors/logo-aful.svg': []
