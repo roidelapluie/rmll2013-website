@@ -61,9 +61,9 @@ context:
                     url: /fr/index.html
                     menu_uid: home
                 -
-                    name: Appel à conférences
-                    url: /fr/ac.html
-                    menu_uid: cfp
+                    name: Hébergement
+                    url: /fr/hebergement.html
+                    menu_uid: hosting
                 -
                     name: Participer
                     url: /fr/participer.html
@@ -95,9 +95,9 @@ context:
                     url: /en/index.html
                     menu_uid: home
                 -
-                    name: Call for papers
-                    url: /en/cfp.html
-                    menu_uid: cfp
+                    name: Hosting
+                    url: /en/hosting.html
+                    menu_uid: hosting
                 -
                     name: Getting involved
                     url: /en/gettinginvolved.html
