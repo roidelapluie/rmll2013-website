@@ -5,8 +5,8 @@ header_image: header-home-en.png
 language: en
 sidebar:
     -
-        name: CALL FOR %PAPERS%
-        url: /en/cfp.html
+        name: TEMPORARY %SCHEDULE%
+        url: http://schedule2013.rmll.info
     -
-        name: PARTNERS AND %SPONSORS%
-        url: /en/partners-and-sponsors.html
+        name: %BOOKING%
+        url: https://reservation.rmll.info

@@ -9,6 +9,14 @@ nl:
         url: /nl/deelnemen.html
         menu_uid: participate
     -
+        name: Temporary schedule
+        url: http://schedule2013.rmll.info
+        menu_uid: schedule
+    -
+        name: Booking
+        url: https://reservation.rmll.info
+        menu_uid: booking
+    -
         name: Partners en sponsors
         url: /nl/partners-en-sponsors.html
         menu_uid: partners
@@ -38,6 +46,14 @@ fr:
         name: Hébergement
         url: /fr/hebergement.html
         menu_uid: hosting
+    -
+        name: Programme temporaire
+        url: http://schedule2013.rmll.info
+        menu_uid: schedule
+    -
+        name: Réservations
+        url: https://reservation.rmll.info
+        menu_uid: booking
     -
         name: Participer
         url: /fr/participer.html
@@ -72,6 +88,14 @@ en:
         name: Hosting
         url: /en/hosting.html
         menu_uid: hosting
+    -
+        name: Temporary schedule
+        url: http://schedule2013.rmll.info
+        menu_uid: schedule
+    -
+        name: Booking
+        url: https://reservation.rmll.info
+        menu_uid: booking
     -
         name: Getting involved
         url: /en/gettinginvolved.html

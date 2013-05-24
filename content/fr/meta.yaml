@@ -4,10 +4,10 @@ header_image: header-home-fr.png
 default_block: post
 sidebar:
     -
-        name: APPEL À %CONFÉRENCES%
-        url: /fr/ac.html
+        name: PROGRAMME %TEMPORAIRE%
+        url: http://schedule2013.rmll.info
     -
-        name: PARTENAIRES ET %SPONSORS%
-        url: /fr/partenaires-et-sponsors.html
+        name: %RÉSERVATIONS%
+        url: https://reservation.rmll.info
 
 

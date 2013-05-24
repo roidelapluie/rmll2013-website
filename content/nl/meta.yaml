@@ -2,5 +2,8 @@ language: nl
 header_image: header-home-nl.png
 sidebar:
     -
-        name: PARTNERS EN %SPONSORS%
-        url: /nl/partners-en-sponsors.html
+        name: TEMPORARY %SCHEDULE%
+        url: http://schedule2013.rmll.info
+    -
+        name: %BOOKING%
+        url: https://reservation.rmll.info

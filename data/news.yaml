@@ -1,29 +1,28 @@
 ---
 fr:
     information:
-        text: 'Le site web des Rencontres Mondiales des Logiciels Libres 2013 à Bruxelles est en ligne!'
-        url: /fr
-        date: 8 février 2013
+        text: 'La réservation est en ligne!'
+        url: https://reservation.rmll.info
+        date: 25 mai 2013
     organisation:
-        text: "Appel à conférences: la soumission est prolongée jusqu'au 14 avril 2013."
-        url: /fr/ac.html
-        date: 31 mars 2013
+        text: "Vous pouvez dès maintenant voir le programme temporaire."
+        url: http://schedule2013.rmll.info
+        date: 25 mai 2013
 en:
     information:
-        text: 'The website of the Libre Software Meeting 2013 in Brussels is online!'
-        url: /en
-        date: 8th February 2013
+        text: 'The booking interface is now online.'
+        url: https://reservation.rmll.info
+        date: May 25th, 2013
     organisation:
-        text: "Call for papers: the deadline for submissions is pushed forward until April 14th, 2013."
-        url: /en/cfp.html
-        date: 31th March 2013
+        text: "Discover the temporary schedule of the Libre Software Meeting!"
+        url: http://schedule2013.rmll.info
+        date: May 25th, 2013
 nl:
     information:
-        text: 'The website of the Libre Software Meeting 2013 in Brussels is online!'
-        url: /nl
-        date: 8 februari 2013
+        text: 'The booking interface is now online.'
+        url: https://reservation.rmll.info
+        date: 25 mei 2013
     organisation:
-        text: "Call for papers: the deadline for submissions is pushed forward until April 14th, 2013."
-        url: /nl/cfp.html
-        date: 31 maart 2013
-        translations:
+        text: "Discover the temporary schedule of the Libre Software Meeting!"
+        url: http://schedule2013.rmll.info
+        date: 25 mei 2013
