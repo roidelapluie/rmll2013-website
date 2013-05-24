@@ -1,3 +1,4 @@
+---
 mode: development
 media_root: media # Relative path from content folder.
 media_url: /media # URL where the media files are served from.
@@ -10,11 +11,15 @@ plugins:
     - hyde.ext.plugins.syntext.SyntextPlugin
     - hyde.ext.plugins.textlinks.TextlinksPlugin
     - hyde.ext.plugins.languages.LanguagePlugin
-    #- mobileplugin.MobilePlugin
 jinja2:
     extensions:
         -  hydewiki.MediawikiExtension
 context:
+    providers:
+        translations: data/translations.yaml
+        menu: data/menu.yaml
+        news: data/news.yaml
+        sponsors: data/sponsors.yaml
     data:
         languages_enabled:
             - fr
@@ -24,159 +29,6 @@ context:
             fr: Français
             en: English
             nl: Nederlands
-        menu:
-            nl:
-                -
-                    name: Hoofdpagina
-                    url: /nl/index.html
-                    menu_uid: home
-                -
-                    name: Deelnemen
-                    url: /nl/deelnemen.html
-                    menu_uid: participate
-                -
-                    name: Partners en sponsors
-                    url: /nl/partners-en-sponsors.html
-                    menu_uid: partners
-                -
-                    name: Over de LSM
-                    url: /nl/over-de-lsm/index.html
-                    menu_uid: about
-                    dropdown:
-                        -
-                            name: Vrijheid voor jou!
-                            url: /nl/over-de-lsm/vrijheid-voor-jou.html
-                        -
-                            name: Geschiedenis van de LSM
-                            url: /nl/over-de-lsm/geschiedenis.html
-                        -
-                            name: Definitie van vrije software
-                            url: /nl/over-de-lsm/definitie-van-vrije-software.html
-                        -
-                            name: Contact en mailing lijsten 
-                            url: /nl/over-de-lsm/contact.html
-            fr:
-                -
-                    name: Accueil
-                    url: /fr/index.html
-                    menu_uid: home
-                -
-                    name: Hébergement
-                    url: /fr/hebergement.html
-                    menu_uid: hosting
-                -
-                    name: Participer
-                    url: /fr/participer.html
-                    menu_uid: participate
-                -
-                    name: Partenaires et sponsors
-                    url: /fr/partenaires-et-sponsors.html
-                    menu_uid: partners
-                -
-                    name: A propos des RMLL
-                    url: /fr/a-propos-des-rmll/index.html
-                    menu_uid: about
-                    dropdown:
-                        -
-                            name: Le libre est à vous!
-                            url: /fr/a-propos-des-rmll/le-libre-est-a-vous.html
-                        -
-                            name: Historique des RMLL
-                            url: /fr/a-propos-des-rmll/historique.html
-                        -
-                            name: Définition du logiciels libres
-                            url: /fr/a-propos-des-rmll/definition-du-logiciel-libre.html
-                        -
-                            name: Contact et listes de diffusion
-                            url: /fr/a-propos-des-rmll/contact.html
-            en:
-                -
-                    name: Home
-                    url: /en/index.html
-                    menu_uid: home
-                -
-                    name: Hosting
-                    url: /en/hosting.html
-                    menu_uid: hosting
-                -
-                    name: Getting involved
-                    url: /en/gettinginvolved.html
-                    menu_uid: participate
-                -
-                    name: Partners and sponsors
-                    url: /en/partners-and-sponsors.html
-                    menu_uid: partners
-                -
-                    name: About the LSM
-                    url: /en/about-lsm/index.html
-                    menu_uid: about
-                    dropdown:
-                        -
-                            name: Libre is yours!
-                            url: /en/about-lsm/libre-is-yours.html
-                        -
-                            name: History of the LSM
-                            url: /en/about-lsm/history.html
-                        -
-                            name: Definition of Libre Software
-                            url: /en/about-lsm/definition-of-libre-software.html
-                        -
-                            name: Contact and mailing lists
-                            url: /en/about-lsm/contact.html
-        news:
-            fr:
-                information:
-                    text: 'Le site web des Rencontres Mondiales des Logiciels Libres 2013 à Bruxelles est en ligne!'
-                    url: /fr
-                    date: 8 février 2013
-                organisation:
-                    text: "Appel à conférences: la soumission est prolongée jusqu'au 14 avril 2013."
-                    url: /fr/ac.html
-                    date: 31 mars 2013
-            en:
-                information:
-                    text: 'The website of the Libre Software Meeting 2013 in Brussels is online!'
-                    url: /en
-                    date: 8th February 2013
-                organisation:
-                    text: "Call for papers: the deadline for submissions is pushed forward until April 14th, 2013."
-                    url: /en/cfp.html
-                    date: 31th March 2013
-            nl:
-                information:
-                    text: 'The website of the Libre Software Meeting 2013 in Brussels is online!'
-                    url: /nl
-                    date: 8 februari 2013
-                organisation:
-                    text: "Call for papers: the deadline for submissions is pushed forward until April 14th, 2013."
-                    url: /nl/cfp.html
-                    date: 31 maart 2013
-        translations:
-            fr:
-                partners_url: /fr/partenaires-et-sponsors.html
-                lastnews: Dernières nouvelles
-                community: Communauté/organisation
-                brusselsedition: Bruxelles, 14e édition
-                title: 14es Rencontres Mondiales du Logiciel Libre
-                photocopyright: 'Photos du dessus de page: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, par <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, licence <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, par <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, licence <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
-            en:
-                partners_url: /en/partners-and-sponsors.html
-                lastnews: Last news
-                community: Community/organisation
-                brusselsedition: Brussels, 14th edition
-                title: 14th Libre Software Meeting
-                photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
-            nl:
-                partners_url: /nl/partners-en-sponsors.html
-                lastnews: Laatste Nieuws
-                community: Gemeenschap/organisatie
-                brusselsedition: Brussel, 14de editie
-                title: 14de Libre Software Meeting
-                photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
-        yourlibreproject:
-            fr: /fr/votre-projet-libre.html
-            en: /en/your-libre-project.html
-            nl: /content/nl/jouw-project.html
 meta:
     nodemeta: meta.yaml
     created: !!timestamp 2010-01-01 00:00:00
