@@ -7,7 +7,6 @@ argparse==1.2.1
 commando==0.3a
 hyde==0.8.4
 mediawiki==0.0.1
-mobileplugin==0.2
 paramiko==1.9.0
 pycrypto==2.6
 rmll-hyde-extensions==0.1
