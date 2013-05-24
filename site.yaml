@@ -13,7 +13,7 @@ plugins:
     #- mobileplugin.MobilePlugin
 jinja2:
     extensions:
-        -  hyde.ext.templates.hydewiki.MediawikiExtension
+        -  hydewiki.MediawikiExtension
 context:
     data:
         languages_enabled:

@@ -10,5 +10,4 @@ mediawiki==0.0.1
 paramiko==1.9.0
 pycrypto==2.6
 smartypants==1.6.0.3
-typogrify-hyde==1.0.1a
 wsgiref==0.1.2
