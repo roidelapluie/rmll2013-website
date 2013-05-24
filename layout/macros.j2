@@ -1,8 +1,37 @@
 {% macro print_sponsors() %}
-TEST
-{% for sponsor in sponsors %}
-<p>{{sponsor}}<p>
-<h3>{{sponsors[sponsor[0]]['website'][resource.meta.language]}}</h3>
-<h1>{{sponsor['image']}}</h1>
-{% endfor %}
+<p style="text-align:center;">
+{%- for sponsor in sponsors -%}
+<a href="
+{%-
+    if "{{sponsors[sponsor[0]]['website'][resource.meta.language]}}" != ""
+-%}
+    {{sponsors[sponsor[0]]['website'][resource.meta.language]}}
+{%- else -%}
+    {{sponsors[sponsor[0]]['website']}}
+{%-
+    endif
+-%}
+"><img src="/media/img/sponsors/
+{%-
+    if "{{sponsors[sponsor[0]]['image'][resource.meta.language]}}" != ""
+-%}
+    {{sponsors[sponsor[0]]['image'][resource.meta.language]}}
+{%- else -%}
+    {{sponsors[sponsor[0]]['image']}}
+{%-
+    endif
+-%}
+" alt="
+{%-
+    if "{{sponsors[sponsor[0]]['name'][resource.meta.language]}}" != ""
+-%}
+    {{sponsors[sponsor[0]]['name'][resource.meta.language]}}
+{%- else -%}
+    {{sponsors[sponsor[0]]['name']}}
+{%-
+    endif
+-%}
+" /></a>
+{%- endfor -%}
+</p>
 {% endmacro %}
