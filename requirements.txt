@@ -9,7 +9,6 @@ hyde==0.8.4
 mediawiki==0.0.1
 paramiko==1.9.0
 pycrypto==2.6
-rmll-hyde-extensions==0.1
 smartypants==1.6.0.3
 typogrify-hyde==1.0.1a
 wsgiref==0.1.2
