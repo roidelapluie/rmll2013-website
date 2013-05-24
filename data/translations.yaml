@@ -5,6 +5,7 @@ fr:
     bronze: "Partenaires d'argent"
     logistique: "Partenaires techniques et logistiques"
     event: "Évènements partenaires"
+    sponsors: "Partenaires et sponsors"
     partners_url: /fr/partenaires-et-sponsors.html
     lastnews: Dernières nouvelles
     community: Communauté/organisation
@@ -18,6 +19,7 @@ en:
     bronze: "Silver partners"
     logistique: "Technical and logistics partners"
     event: "Event partners"
+    sponsors: "Partners and sponsors"
     partners_url: /en/partners-and-sponsors.html
     lastnews: Last news
     community: Community/organisation
@@ -31,6 +33,7 @@ nl:
     bronze: "Silver partners"
     logistique: "Technical and logistics partners"
     event: "Event partners"
+    sponsors: "Partners en sponsors"
     partners_url: /nl/partners-en-sponsors.html
     lastnews: Laatste Nieuws
     community: Gemeenschap/organisatie

@@ -2,8 +2,6 @@
 {{translations[resource.meta.language][text]}}
 {%- endmacro %}
 {% macro print_sponsors_category(category) %}
-<h1>{{ translate(category) }}</h1>
-<p class="sponsors">
 {%- for sponsor in sponsors[category]|sort -%}
 <a href="
 {%-
@@ -47,13 +45,20 @@
 -%}
 " /></a>
 {%- endfor -%}
-</p>
 {% endmacro %}
 {% macro print_sponsors() %}
+<h1>{{ translate('sponsors') }}</h1>
+<p class="sponsors">
 {{print_sponsors_category('gold')}}
+</p>
+<p class="sponsors">
 {{print_sponsors_category('silver')}}
 {{print_sponsors_category('bronze')}}
 {{print_sponsors_category('logistique')}}
+</p>
+<h1>{{ translate('event') }}</h1>
+<p class="sponsors">
 {{print_sponsors_category('event')}}
+</p>
 {% endmacro %}
 

@@ -509,7 +509,7 @@ form.webform-client-form input.select-or-other-other.form-text {
     font-size: 1.2em;
 }
 .sponsors {
-    text-align:center;
+    text-align:center!important;
 }
 .sponsors img{
     padding: 5px 10px 5px 10px;
