@@ -1,3 +1,4 @@
+{%- import "macros.j2" as macros with context -%}
 <!DOCTYPE html>
 <html>
     <head>
@@ -240,7 +241,7 @@ jQuery.extend(Drupal.settings, {
                             <img alt="http://www.wordpress.org" src="/media/libre-logos/wordpress.png" width="35" height="35" alt="" />
                             <img alt="http://www.xfce.org" src="/media/libre-logos/xfce.png" width="35" height="35" alt="" />
                             <img alt="http://www.xonotic.org" src="/media/libre-logos/xonotic.png" width="35" height="35" alt="" />
-                            <img alt="{{yourlibreproject[resource.meta.language]}}" src="/media/libre-logos/libre.png" width="35" height="35" alt="" />
+                            <img alt="{{translation[resource.meta.language]['yourlibreproject']}}" src="/media/libre-logos/libre.png" width="35" height="35" alt="" />
                         </div>
                     </div>
                 </div>
@@ -295,96 +296,3 @@ jQuery.extend(Drupal.settings, {
 <!-- #RMLL-end-footer -->
 </body>
 </html>
-<!--
-<div id="header">
-    <div class="content">
-        <div class="lang">
-            {{ languages[resource.meta.language] }}
-            {% for translation in resource.translations%}
-            <a href="{{translation.full_url}}">{{ languages[translation.meta.language] }}</a>
-            {% endfor %}
-        </div>
-        <img src="/media/img/rmll{{ resource.meta.language }}.png" alt="RMLL" />
-    </div>
-</div>
-<div id="menu">
-    <div class="content">
-        {% for link in menu[resource.meta.language] %}
-        <a href="{{link.url}}">{{link.name}}</a>
-        {%endfor%}
-    </div>
-</div>
-<div id="page">
-    <div class="box" id="scrolling">
-        <img alt="http://amarok.kde.org" src="/media/libre-logos/amarok.png" width="35" height="35" alt="" />
-        <img alt="http://www.apache.org" src="/media/libre-logos/apache.png" width="35" height="35" alt="" />
-        <img alt="http://www.archlinux.org" src="/media/libre-logos/archlinux.png" width="35" height="35" alt="" />
-        <img alt="http://www.arduino.cc" src="/media/libre-logos/arduino.png" width="35" height="35" alt="" />
-        <img alt="http://www.bitcoin.org" src="/media/libre-logos/bitcoin.png" width="35" height="35" alt="" />
-        <img alt="http://www.blender.org" src="/media/libre-logos/blender.png" width="35" height="35" alt="" />
-        <img alt="http://www.creativecommons.org" src="/media/libre-logos/cc.png" width="35" height="35" alt="" />
-        <img alt="http://www.ohwr.org/projects/cernohl/wiki" src="/media/libre-logos/cern-ohl.png" width="35" height="35" alt="" />
-        <img alt="http://www.debian.org" src="/media/libre-logos/debian.png" width="35" height="35" alt="" />
-        <img alt="http://www.dokeos.com" src="/media/libre-logos/dokeos.png" width="35" height="35" alt="" />
-        <img alt="http://www.drupal.org" src="/media/libre-logos/drupal.png" width="35" height="35" alt="" />
-        <img alt="http://www.elphel.com" src="/media/libre-logos/elphel.png" width="35" height="35" alt="" />
-        <img alt="http://www.fedoraproject.org" src="/media/libre-logos/fedora.png" width="35" height="35" alt="" />
-        <img alt="http://www.mozilla.org/firefox" src="/media/libre-logos/firefox.png" width="35" height="35" alt="" />
-        <img alt="http://www.gentoo.org" src="/media/libre-logos/gentoo.png" width="35" height="35" alt="" />
-        <img alt="http://www.gimp.org" src="/media/libre-logos/gimp.png" width="35" height="35" alt="" />
-        <img alt="http://www.gnome.org" src="/media/libre-logos/gnome.png" width="35" height="35" alt="" />
-        <img alt="http://www.gnu.org" src="/media/libre-logos/gnu.png" width="35" height="35" alt="" />
-        <img alt="http://gstreamer.freedesktop.org" src="/media/libre-logos/gstreamer.png" width="35" height="35" alt="" />
-        <img alt="http://www.freebsd.org" src="/media/libre-logos/freebsd.png" width="35" height="35" alt="" />
-        <img alt="http://www.freeguppy.org" src="/media/libre-logos/guppy.png" width="35" height="35" alt="" />
-        <img alt="http://www.haiku-os.org" src="/media/libre-logos/haiku.png" width="35" height="35" alt="" />
-        <img alt="http://www.imagemagick.org" src="/media/libre-logos/imagemagick.png" width="35" height="35" alt="" />
-        <img alt="http://www.inkscape.org" src="/media/libre-logos/inkscape.png" width="35" height="35" alt="" />
-        <img alt="http://www.jabber.org" src="/media/libre-logos/jabber.png" width="35" height="35" alt="" />
-        <img alt="http://www.joomla.org" src="/media/libre-logos/joomla.png" width="35" height="35" alt="" />
-        <img alt="http://www.kde.org" src="/media/libre-logos/kde.png" width="35" height="35" alt="" />
-        <img alt="http://www.knoppix.net" src="/media/libre-logos/knoppix.png" width="35" height="35" alt="" />
-        <img alt="http://www.libreoffice.org" src="/media/libre-logos/libreoffice.png" width="35" height="35" alt="" />
-        <img alt="http://www.linux.com" src="/media/libre-logos/linux.png" width="35" height="35" alt="" />
-        <img alt="http://www.mageia.org" src="/media/libre-logos/mageia.png" width="35" height="35" alt="" />
-        <img alt="http://www.mandriva.com" src="/media/libre-logos/mandriva.png" width="35" height="35" alt="" />
-        <img alt="http://www.moodle.org" src="/media/libre-logos/moodle.png" width="35" height="35" alt="" />
-        <img alt="http://www.mozilla.org" src="/media/libre-logos/mozilla.png" width="35" height="35" alt="" />
-        <img alt="http://www.mozilla.org" src="/media/libre-logos/openarena.png" width="35" height="35" alt="" />
-        <img alt="http://www.openbsd.org" src="/media/libre-logos/openbsd.png" width="35" height="35" alt="" />
-        <img alt="http://www.opensuse.org" src="/media/libre-logos/opensuse.png" width="35" height="35" alt="" />
-        <img alt="http://www.perl.org" src="/media/libre-logos/perl.png" width="35" height="35" alt="" />
-        <img alt="http://www.php.net" src="/media/libre-logos/php.png" width="35" height="35" alt="" />
-        <img alt="http://www.pidgin.im" src="/media/libre-logos/pidgin.png" width="35" height="35" alt="" />
-        <img alt="http://www.plone.org" src="/media/libre-logos/plone.png" width="35" height="35" alt="" />
-        <img alt="http://www.postgresql.org" src="/media/libre-logos/postgresql.png" width="35" height="35" alt="" />
-        <img alt="http://www.python.org" src="/media/libre-logos/python.png" width="35" height="35" alt="" />
-        <img alt="http://www.ruby-lang.org" src="/media/libre-logos/ruby.png" width="35" height="35" alt="" />
-        <img alt="http://www.scribus.net" src="/media/libre-logos/scribus.png" width="35" height="35" alt="" />
-        <img alt="http://www.spip.net" src="/media/libre-logos/spip.png" width="35" height="35" alt="" />
-        <img alt="http://www.mozilla.org/thunderbird" src="/media/libre-logos/thunderbird.png" width="35" height="35" alt="" />
-        <img alt="http://tomcat.apache.org" src="/media/libre-logos/tomcat.png" width="35" height="35" alt="" />
-        <img alt="http://www.typo3.com" src="/media/libre-logos/typo3.png" width="35" height="35" alt="" />
-        <img alt="http://www.ubuntu.com" src="/media/libre-logos/ubuntu.png" width="35" height="35" alt="" />
-    </div>
-    <div class="contentbox">
-    </div>
-</div>
-            </div>
-            <div id="footer">
-                <div class="content">
-                    <div class="news news-left">
-                        <h4>{{ translations[resource.meta.language]['lastnews'] }}</h4>
-                        {% for res in site.content.walk_resources_sorted_by_time() %}
-                        {% if res.meta.language == resource.meta.language %}
-                        <span class="date">{{res.meta.created.strftime('%Y-%m-%d')}}</span> <a href="/{{res.url}}">{{res.meta.title}}</a>
-                        {%break%}
-                        {% endif %}
-
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </body>
-    </html>
-    --!>

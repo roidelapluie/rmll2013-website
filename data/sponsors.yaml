@@ -1,0 +1,14 @@
+---
+cirb:
+    name:
+       fr: "Centre d'Informatique pour la Région Bruxelloise"
+       en: "Brussels Regional Informatics Centre"
+       nl: "Centrum Voor Imformatica Voor Het Brusselse Gewest"
+    image:
+       fr: cirb.png
+       nl: cibg.png
+       en: bric.png
+    website:
+       fr: http://www.cirb.irisnet.be/
+       nl: http://www.cibg.irisnet.be/
+       en: http://www.bric.irisnet.be/

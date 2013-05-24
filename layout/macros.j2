@@ -1,0 +1,8 @@
+{% macro print_sponsors() %}
+TEST
+{% for sponsor in sponsors %}
+<p>{{sponsor}}<p>
+<h3>{{sponsors[sponsor[0]]['website'][resource.meta.language]}}</h3>
+<h1>{{sponsor['image']}}</h1>
+{% endfor %}
+{% endmacro %}
