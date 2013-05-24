@@ -508,3 +508,9 @@ form.webform-client-form input.select-or-other-other.form-text {
     color: #454f14!important;
     font-size: 1.2em;
 }
+.sponsors {
+    text-align:center;
+}
+.sponsors img{
+    padding: 5px 10px 5px 10px;
+}
