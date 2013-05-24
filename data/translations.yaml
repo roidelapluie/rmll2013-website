@@ -1,5 +1,10 @@
 ---
 fr:
+    gold: "Partenaires de platine"
+    silver: "Partenaires d'or"
+    bronze: "Partenaires d'argent"
+    logistique: "Partenaires techniques et logistiques"
+    event: "Évènements partenaires"
     partners_url: /fr/partenaires-et-sponsors.html
     lastnews: Dernières nouvelles
     community: Communauté/organisation
@@ -8,6 +13,11 @@ fr:
     yourlibreproject: /fr/votre-projet-libre.html
     photocopyright: 'Photos du dessus de page: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, par <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, licence <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, par <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, licence <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
 en:
+    gold: "Platinium partners"
+    silver: "Gold partners"
+    bronze: "Silver partners"
+    logistique: "Technical and logistics partners"
+    event: "Event partners"
     partners_url: /en/partners-and-sponsors.html
     lastnews: Last news
     community: Community/organisation
@@ -16,6 +26,11 @@ en:
     yourlibreproject: /en/your-libre-project.html
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
 nl:
+    gold: "Platinium partners"
+    silver: "Gold partners"
+    bronze: "Silver partners"
+    logistique: "Technical and logistics partners"
+    event: "Event partners"
     partners_url: /nl/partners-en-sponsors.html
     lastnews: Laatste Nieuws
     community: Gemeenschap/organisatie

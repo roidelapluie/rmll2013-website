@@ -1,33 +1,47 @@
-{% macro print_sponsors() %}
-<p style="text-align:center;">
-{%- for sponsor in sponsors -%}
+{% macro translate(text) -%}
+{{translations[resource.meta.language][text]}}
+{%- endmacro %}
+{% macro print_sponsors_category(category) %}
+<h1>{{ translate(category) }}</h1>
+<p class="sponsors">
+{%- for sponsor in sponsors[category]|sort -%}
 <a href="
 {%-
-    if "{{sponsors[sponsor[0]]['website'][resource.meta.language]}}" != ""
+    if sponsors[category][sponsor[0]]['website'][resource.meta.language] is defined
 -%}
-    {{sponsors[sponsor[0]]['website'][resource.meta.language]}}
+    {{sponsors[category][sponsor[0]]['website'][resource.meta.language]}}
 {%- else -%}
-    {{sponsors[sponsor[0]]['website']}}
+    {{sponsors[category][sponsor[0]]['website']}}
 {%-
     endif
 -%}
 "><img src="/media/img/sponsors/
 {%-
-    if "{{sponsors[sponsor[0]]['image'][resource.meta.language]}}" != ""
+    if sponsors[category][sponsor[0]]['image'][resource.meta.language] is defined
 -%}
-    {{sponsors[sponsor[0]]['image'][resource.meta.language]}}
+    {{sponsors[category][sponsor[0]]['image'][resource.meta.language]}}
 {%- else -%}
-    {{sponsors[sponsor[0]]['image']}}
+    {{sponsors[category][sponsor[0]]['image']}}
+{%-
+    endif
+-%}
+" title="
+{%-
+    if sponsors[category][sponsor[0]]['name'][resource.meta.language] is defined
+-%}
+    {{sponsors[category][sponsor[0]]['name'][resource.meta.language]}}
+{%- else -%}
+    {{sponsors[category][sponsor[0]]['name']}}
 {%-
     endif
 -%}
 " alt="
 {%-
-    if "{{sponsors[sponsor[0]]['name'][resource.meta.language]}}" != ""
+    if sponsors[category][sponsor[0]]['name'][resource.meta.language] is defined
 -%}
-    {{sponsors[sponsor[0]]['name'][resource.meta.language]}}
+    {{sponsors[category][sponsor[0]]['name'][resource.meta.language]}}
 {%- else -%}
-    {{sponsors[sponsor[0]]['name']}}
+    {{sponsors[category][sponsor[0]]['name']}}
 {%-
     endif
 -%}
@@ -35,3 +49,11 @@
 {%- endfor -%}
 </p>
 {% endmacro %}
+{% macro print_sponsors() %}
+{{print_sponsors_category('gold')}}
+{{print_sponsors_category('silver')}}
+{{print_sponsors_category('bronze')}}
+{{print_sponsors_category('logistique')}}
+{{print_sponsors_category('event')}}
+{% endmacro %}
+

@@ -1,14 +1,141 @@
 ---
-cirb:
-    name:
-       fr: "Centre d'Informatique pour la Région Bruxelloise"
-       en: "Brussels Regional Informatics Centre"
-       nl: "Centrum Voor Imformatica Voor Het Brusselse Gewest"
-    image:
-       fr: cirb.png
-       nl: cibg.png
-       en: bric.png
-    website:
-       fr: http://www.cirb.irisnet.be/
-       nl: http://www.cibg.irisnet.be/
-       en: http://www.bric.irisnet.be/
+event:
+    100openerp:
+        name: Open Days OpenERP
+        image: openerp.png
+        website: https://opendays.openerp.com/
+    200europarl:
+        name: JURI Workshop about free software
+        image: europarl.png
+        website: http://joinup.ec.europa.eu/news/report-european-parliaments-free-software-use-coming
+logistique:
+    5000urlab:
+        name: UrLab
+        image: urlab.png
+        website: http://urlab.be/
+    3000gandi:
+        name: Fédération France Wireless
+        image: ffw.png
+        website: http://wireless-fr.org/
+    6000gandi:
+        name: Gandi
+        image: gandi.png
+        website: http://www.gandi.net/
+    4000aful:
+        name:
+            fr: Association Francophone des Utilisateurs de Logiciels Libres
+            nl: "French speaking Libre Software Users' Association"
+            en: "French speaking Libre Software Users' Association"
+        image: aful.png
+        website: http://aful.org/
+    4000abul:
+        name: 'Association Bordelaise des Utilisateurs de Logiciels libres'
+        image: abul.png
+        website: http://abul.org/
+    4000aful:
+        name: AFUL
+        image: aful.png
+        website: http://aful.org/
+    6000eddiamond:
+        name: Les Éditions Diamond
+        image: eddiamond.png
+        website: http://www.ed-diamond.com/
+    9000resotel:
+        name: Resotel
+        image: resotel.png
+        website:
+            fr: https://www.resotel.be/rmll2013/FR
+            nl: https://www.resotel.be/rmll2013
+            en: https://www.resotel.be/rmll2013
+    5500radio:
+        name: Radio Campus
+        image: radiocampus.png
+        website: http://www.radiocampus.be/
+silver:
+    1000audaxis:
+        name: Audaxis
+        image: audaxis.png
+        website: http://www.audaxis.com/
+bronze:
+    5000bxlub:
+        name: BxLUG
+        image: bxlug.png
+        website: http://www.bxlug.be
+    1000smile:
+        name: Smile
+        image: smile.png
+        website: http://www.smile-benelux.com/
+    1000freeit:
+        name: Free IT Foundation
+        image: free-it-foundation.png
+        website: http://www.free-it-foundation.org/
+    3000cesep:
+        name: "Centre Socialiste d'Education Permanente"
+        image: cesep.png
+        website: http://www.cesep.be/
+    4000swissvon:
+        name: SwissVON
+        image: swissvon.png
+        website: http://www.swissvon.ch/
+    4000constant:
+        name:
+            fr: Constant ASBL
+            nl: Constant VZW
+            en: Constant VZW
+        image: constant.png
+        website:
+            fr: "http://www.constantvzw.org/site/?lang=fr"
+            nl: "http://www.constantvzw.org/site/?lang=nl"
+            en: "http://www.constantvzw.org/site/?lang=en"
+    4000isib:
+        name: Institut Supérieur Industriel de Bruxelles
+        image: isib.png
+        website: http://www.isib.be
+gold:
+    3000cirb:
+        name:
+           fr: "Centre d'Informatique pour la Région Bruxelloise"
+           nl: "Centrum Voor Imformatica Voor Het Brusselse Gewest"
+           en: "Brussels Regional Informatics Centre"
+        image:
+           fr: cirb.png
+           nl: cibg.png
+           en: bric.png
+        website:
+           fr: http://www.cirb.irisnet.be/
+           nl: http://www.cibg.irisnet.be/
+           en: http://www.bric.irisnet.be/
+    5000ulg:
+        name: "Université libre de Bruxelles"
+        image: ulb.png
+        website: http://ulb.ac.be
+    4000fwb:
+        name:
+           fr: "Fédération Wallonie-Bruxelles"
+           nl: "Franse Gemeenschap"
+           en: "French Community of Belgium"
+        image: fwb.png
+        website: http://www.federation-wallonie-bruxelles.be/
+    1000bebrussels:
+        name:
+           fr: "Région de Bruxelles-Capitale"
+           nl: "Brussels Hoofdstedelijk Gewest"
+           en: "Brussels-Capital Region"
+        image: be-brussels.png
+        website:
+           fr: http://www.bruxelles.irisnet.be/
+           nl: http://www.brussel.irisnet.be/
+           en: http://www.brussels.irisnet.be/
+    2000brussels:
+        name:
+           fr: "Ville de Bruxelles"
+           nl: "Stad Brussel"
+           en: "City of Brussels"
+        image:
+           fr: ville-de-bruxelles.png
+           nl: stad-brussel.png
+           en: city-of-brussels.png
+        website:
+           fr: http://www.brussels.be/
+           nl: http://www.brussel.be/
+           en: http://www.bruxelles.be/
