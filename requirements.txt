@@ -6,7 +6,6 @@ Pygments==1.6
 argparse==1.2.1
 commando==0.3a
 hyde==0.8.4
-hydewiki==0.1
 mediawiki==0.0.1
 mobileplugin==0.2
 paramiko==1.9.0

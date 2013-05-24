@@ -35,9 +35,9 @@ context:
                     url: /nl/deelnemen.html
                     menu_uid: participate
                 -
-                    name: Call for papers
-                    url: /nl/cfp.html
-                    menu_uid: cfp
+                    name: Partners en sponsors
+                    url: /nl/partners-en-sponsors.html
+                    menu_uid: partners
                 -
                     name: Over de LSM
                     url: /nl/over-de-lsm/index.html

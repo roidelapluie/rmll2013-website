@@ -25,6 +25,7 @@
 !!python/unicode 'fr/detentes.html': [base.j2]
 !!python/unicode 'fr/hebergement.html': [base.j2]
 !!python/unicode 'fr/index.html': [base.j2]
+!!python/unicode 'fr/partenaires-et-sponsors.html': [base.j2]
 !!python/unicode 'fr/participer.html': [base.j2]
 !!python/unicode 'fr/votre-projet-libre.html': [base.j2]
 !!python/unicode 'media/css/ctools.css': []
