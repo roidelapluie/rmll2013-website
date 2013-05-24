@@ -1,21 +1,9 @@
-from fabric.api import *
-
-import os
-import shutil
-import time
-import glob
-import hashlib
-import yaml
+from fabric.api import local, run, env, task
 
 env.use_ssh_config = True
 env.hosts = ['rmll4']
 
-def _install_extension():
-    local('cd hydewiki && ../../bin/python setup.py install')
-    #local('cd mobileplugin && ../../bin/python setup.py install')
-
 def _hyde(args):
-    _install_extension()
     return local('../bin/hyde %s' % args)
 
 @task
