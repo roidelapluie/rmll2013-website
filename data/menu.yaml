@@ -9,11 +9,11 @@ nl:
         url: /nl/deelnemen.html
         menu_uid: participate
     -
-        name: Temporary schedule
-        url: http://schedule2013.rmll.info
+        name: Programma
+        url: http://schedule2013.rmll.info/?lang=nl
         menu_uid: schedule
     -
-        name: Booking
+        name: Reservering
         url: https://reservation.rmll.info
         menu_uid: booking
     -
@@ -47,8 +47,8 @@ fr:
         url: /fr/hebergement.html
         menu_uid: hosting
     -
-        name: Programme temporaire
-        url: http://schedule2013.rmll.info
+        name: Programme Partiel
+        url: http://schedule2013.rmll.info/?lang=fr
         menu_uid: schedule
     -
         name: Réservations
@@ -89,8 +89,8 @@ en:
         url: /en/hosting.html
         menu_uid: hosting
     -
-        name: Temporary schedule
-        url: http://schedule2013.rmll.info
+        name: Partial schedule
+        url: http://schedule2013.rmll.info/?lang=en
         menu_uid: schedule
     -
         name: Booking

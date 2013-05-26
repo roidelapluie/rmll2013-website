@@ -2,8 +2,8 @@ language: nl
 header_image: home-nl.png
 sidebar:
     -
-        name: %PROGRAMMA%
+        name: '%PROGRAMMA%'
         url: http://schedule2013.rmll.info/?lang=nl
     -
-        name: '%BOOKING%'
+        name: '%RESERVERING%'
         url: https://reservation.rmll.info
