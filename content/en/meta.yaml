@@ -1,12 +1,12 @@
 ---
 extends: base.j2
 default_block: post
-header_image: header-home-en.png
+header_image: home-en.png
 language: en
 sidebar:
     -
-        name: TEMPORARY %SCHEDULE%
-        url: http://schedule2013.rmll.info
+        name: PARTIAL %PROGRAM%
+        url: http://schedule2013.rmll.info/?lang=en
     -
         name: '%BOOKING%'
         url: https://reservation.rmll.info

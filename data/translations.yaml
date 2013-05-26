@@ -12,6 +12,13 @@ fr:
     brusselsedition: Bruxelles, 14e édition
     title: 14es Rencontres Mondiales du Logiciel Libre
     yourlibreproject: /fr/votre-projet-libre.html
+    header_motto: Culture, société et logiciel libre
+    header_date: Du 6 au 11 juillet 2013
+    header_ulb: ULB, Bruxelles
+    header_entrance: Entrée libre
+    header_ulb_x: 630.718
+    header_date_x: 579.724
+    header_entrance_x: 662.636
     photocopyright: 'Photos du dessus de page: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, par <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, licence <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, par <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, licence <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
 en:
     gold: "Platinium partners"
@@ -26,6 +33,13 @@ en:
     brusselsedition: Brussels, 14th edition
     title: 14th Libre Software Meeting
     yourlibreproject: /en/your-libre-project.html
+    header_motto: Culture, society and libre software
+    header_date: From 6th to 11th July 2013
+    header_ulb: ULB, Brussels
+    header_entrance: Free entrance
+    header_ulb_x: 644.138
+    header_date_x: 556.619
+    header_entrance_x: 654.055
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
 nl:
     gold: "Platinium partners"
@@ -39,5 +53,12 @@ nl:
     community: Gemeenschap/organisatie
     brusselsedition: Brussel, 14de editie
     title: 14de Libre Software Meeting
+    header_motto: Cultuur, maatschappij en vrije software
+    header_ulb: ULB, Brussel
+    header_date: Vanaf 6 tot 11 juli 2013
+    header_entrance: Vrije toegang
+    header_ulb_x: 647.700
+    header_date_x: 578.857
+    header_entrance_x: 654.055
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
     yourlibreproject: /content/nl/jouw-project.html

@@ -61,4 +61,6 @@
 {{print_sponsors_category('event')}}
 </p>
 {% endmacro %}
-
+{% macro green_text_svg(text) -%}
+<tspan style="fill:#acc631;fill-opacity:1">{{text}}</tspan>
+{%- endmacro%}

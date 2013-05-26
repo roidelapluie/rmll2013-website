@@ -11,6 +11,7 @@ plugins:
     - hyde.ext.plugins.syntext.SyntextPlugin
     - hyde.ext.plugins.textlinks.TextlinksPlugin
     - hyde.ext.plugins.languages.LanguagePlugin
+    - hydesvg.SVGPlugin
 jinja2:
     extensions:
         -  hydewiki.MediawikiExtension
