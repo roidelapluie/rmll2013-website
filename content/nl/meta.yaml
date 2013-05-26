@@ -2,7 +2,7 @@ language: nl
 header_image: home-nl.png
 sidebar:
     -
-        name: '%PROGRAMMA%'
+        name: 'VOORLOPIG %PROGRAMMA%'
         url: http://schedule2013.rmll.info/?lang=nl
     -
         name: '%RESERVERING%'
