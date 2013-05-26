@@ -1,5 +1,6 @@
 git+git://github.com/hyde/typogrify.git
-./hydewiki
+git+git://github.com/roidelapluie/hydesvg.git
+git+git://github.com/RMLL/hydesvg.git
 Fabric==1.5.3
 Jinja2==2.6
 Markdown==2.2.1
