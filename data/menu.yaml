@@ -9,6 +9,10 @@ nl:
         url: /nl/deelnemen.html
         menu_uid: participate
     -
+        name: Onderdak
+        url: /nl/onderdak.html
+        menu_uid: hosting
+    -
         name: Voorlopig programma
         url: http://schedule2013.rmll.info/?lang=nl
         menu_uid: schedule
