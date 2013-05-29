@@ -93,6 +93,9 @@ jQuery.extend(Drupal.settings, {
 
             <div class="content">
                 <ul class="language-switcher-locale-url">
+                {% if resource.meta.is_template == true %}
+                {{"{% block languages %}{% endblock %}"}}
+                {%else%}
                     {% if resource.meta.language in languages_enabled %}
                     {% for language in languages_enabled %}
                     <li class="{{language}} {%if loop.first%}first{%elif loop.last%}last{%else%}middle{%endif%} {%if language == resource.meta.language%}active{%endif%}">
@@ -128,6 +131,7 @@ jQuery.extend(Drupal.settings, {
                     </li>
                     {%endfor%}
                     {%endif%}
+                {%endif%}
             </ul>  </div>
         </div>
     </div>
