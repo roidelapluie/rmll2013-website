@@ -443,10 +443,7 @@ body.not-front #languages li.de {
     padding-top: 5px;
 }
 
-form.webform-client-form div.webform-component-textfield input,
-form.webform-client-form div.webform-component-webform_email input,
-form.webform-client-form div.form-textarea-wrapper.resizable-textarea,
-form.webform-client-form input.select-or-other-other.form-text {
+form input[type=text], form textarea{
     width: 500px;
 }
 
