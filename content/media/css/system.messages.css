@@ -9,11 +9,10 @@ div.messages {
   background-repeat: no-repeat;
   border: 1px solid;
   margin: 6px 0;
-  padding: 10px 10px 10px 50px; /* LTR */
+  padding: 10px 10px 10px 10px; /* LTR */
 }
 
 div.status {
-  background-image: url(../../misc/message-24-ok.png);
   border-color: #be7;
 }
 div.status,
@@ -26,7 +25,6 @@ table tr.ok {
 }
 
 div.warning {
-  background-image: url(../../misc/message-24-warning.png);
   border-color: #ed5;
 }
 div.warning,
@@ -39,7 +37,6 @@ table tr.warning {
 }
 
 div.error {
-  background-image: url(../../misc/message-24-error.png);
   border-color: #ed541d;
 }
 div.error,
