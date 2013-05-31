@@ -24,5 +24,6 @@ def serve():
 @task
 def publish():
     local('rsync deploy/ -racv --delete rmll4:WEBSITE')
+    local('git log --pretty=format:"%an - %cd - %s" --date=short | ssh rmll4 tee /root/Changelog')
     run('rsync WEBSITE/ -rcv --delete /var/www')
     run('cd /var/www/assets && wget --progress=dot -ci assets-list')
