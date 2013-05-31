@@ -61,6 +61,10 @@ bronze:
         name: Smile
         image: smile.png
         website: http://be.smile.eu/
+    03april:
+        name: "April - promouvoir et défendre le logiciel libre"
+        image: april.png
+        website: http://www.april.org/
     03cesep:
         name: "Centre Socialiste d'Education Permanente"
         image: cesep.png
