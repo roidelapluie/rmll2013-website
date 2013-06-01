@@ -250,7 +250,7 @@ jQuery.extend(Drupal.settings, {
                 <div class="span-6 first leftcol">
                     {% for button in resource.meta.sidebar %}
                     <div class="button shadow">
-                        <a href="{{button.url}}">{{button.name|replace('%','<span class="green">',1)|replace('%','</span>',2)}}</span></a>
+                        <a href="{{button.url}}">{{button.name|replace('%','<span class="green">',1)|replace('%','</span>',2)}}</a>
                     </div>
                     {% endfor %}
                     <div style="padding-top:25px;text-align:center;">
