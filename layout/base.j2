@@ -70,8 +70,32 @@ jQuery.extend(Drupal.settings, {
 });
 //--><!]]>
 </script>
+{% if resource.meta.openlayers == true %}
+    <style type="text/css" media="all">@import url("/media/openlayers/theme/default/style.css");</style>
+    <script type="text/javascript" src="/media/openlayers/OpenLayers.js"></script>
+    <script type="text/javascript">
+        var map, layer;
+        function init(){
+            map = new OpenLayers.Map( 'map');
+            layer = new OpenLayers.Layer.OSM( "LSM 2013");
+            map.addLayer(layer);
+            var pois = new OpenLayers.Layer.Text( "LSM 2013 map",
+                    { location:"/{{resource.meta.language}}/map.txt",
+                    projection: map.displayProjection
+                    });
+            map.addLayer(pois);
+            var lonLat = new OpenLayers.LonLat( 4.38177, 50.81473 )
+            .transform(
+                new OpenLayers.Projection("EPSG:4326"),
+                map.getProjectionObject()
+            );
+            var zoom=11;
+            map.setCenter (lonLat, zoom);
+            }
+        </script>
+        {% endif %}
         </head>
-        <body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page i18n-fr">
+        <body{% if resource.meta.openlayers == true %} onload="init()"{% endif %} class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page i18n-fr">
 
 <div id="header">
   <div class="container">

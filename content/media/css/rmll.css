@@ -511,3 +511,12 @@ form input[type=text], form textarea{
 .sponsors img{
     padding: 5px 10px 5px 10px;
 }
+.smallmap {
+    width: 512px;
+    height: 256px;
+    border: 1px solid #ccc;
+}
+#tags {
+        display: none;
+}
+

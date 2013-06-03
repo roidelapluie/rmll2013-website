@@ -1,0 +1,7 @@
+---
+extends:
+---
+lat	lon	title	description	icon	iconSize	iconOffset
+{% for location in locations -%}
+{{location[1]['lat']}}	{{location[1]['long']}}	{{location[1]['title'][resource.meta.language]}}	{{location[1]['description'][resource.meta.language]}}	{{location[1]['img']}}	{{location[1]['imgsize']}}	{{location[1]['imgoffset']}}
+{% endfor %}

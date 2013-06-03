@@ -1,0 +1,29 @@
+---
+ulb:
+    lat: 50.81473
+    long: 4.38177
+    title:
+       fr: Conferences
+       nl: Conferences
+       en: Conferences
+    description:
+       fr: 8-11 juillet 2013<br /><br />Avenue Franklin Roosevelt 50,<br />1050 Bruxelles, Belgique
+       nl: 8-11 juli 2013<br /><br />Avenue Franklin Roosevelt 50,<br />1050 Brussel, Belgïe
+       en: July 8th-11th 2013<br /><br />Avenue Franklin Roosevelt 50,<br />1050 Brussels, Belgium
+    img: /media/img/marker.png
+    imgsize: 22,25
+    imgoffset: -11,-12
+ulb2:
+    lat: 50.84984
+    long: 4.35351
+    title:
+       fr: Week-end Grand Public
+       nl: Week-end van het grote publiek
+       en: Grand Public Weekend
+    description:
+       fr: 6-7 juillet 2013<br /><br />Place de la monnaie,<br />1000 Bruxelles, Belgique
+       nl: 6-7 juli 2013<br /><br />Muntplein,<br />1000 Brussel, Belgïe
+       en: July 6th-7th 2013<br /><br />Place de la monnaie / Muntplein,<br />1000 Brussels, Belgium
+    img: /media/img/marker.png
+    imgsize: 22,25
+    imgoffset: -11,-12
