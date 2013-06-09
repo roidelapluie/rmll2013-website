@@ -13,7 +13,7 @@ ulb:
     img: /media/img/marker.png
     imgsize: 22,25
     imgoffset: -11,-12
-ulb2:
+monnaie:
     lat: 50.84984
     long: 4.35351
     title:
@@ -27,3 +27,59 @@ ulb2:
     img: /media/img/marker.png
     imgsize: 22,25
     imgoffset: -11,-12
+hdv:
+    lat: 50.84659
+    long: 4.35182
+    title:
+       fr: Repas du Libre
+       nl: Libre banquet
+       en: Libre banquet
+    description:
+       fr: Hotel de ville de Bruxelles<br />Mardi 9 juillet
+       nl: Stadhuis van Brussel<br />Dinsdag 9 juli
+       en: Brussels Town Hall<br />Tuesday 9th July
+    img: /media/img/resto.png
+    imgsize: 20,20
+    imgoffset: -10,-10
+camping:
+    lat: 50.83584
+    long: 4.37358
+    title:
+       fr: Camping Ciel Ouvert
+       nl: Camping Ciel Ouvert
+       en: Camping Ciel Ouvert
+    description:
+       fr: Camping
+       nl: Camping
+       en: Campsite
+    img: /media/img/dodo.png
+    imgsize: 20,20
+    imgoffset: -10,-10
+aub2:
+    lat: 50.85285
+    long: 4.33439
+    title:
+       fr: Generation Europe
+       nl: Generation Europe
+       en: Generation Europe
+    description:
+       fr: Auberge de jeunesse
+       nl: Jeugdherberg
+       en: Youth hostel
+    img: /media/img/dodo.png
+    imgsize: 20,20
+    imgoffset: -10,-10
+aub1:
+    lat: 50.81770
+    long: 4.44809
+    title:
+       fr: Auberge des 3 fontaines
+       nl: Auberge des 3 fontaines
+       en: Auberge des 3 fontaines
+    description:
+       fr: Auberge de jeunesse
+       nl: Jeugdherberg
+       en: Youth hostel
+    img: /media/img/dodo.png
+    imgsize: 20,20
+    imgoffset: -10,-10

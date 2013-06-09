@@ -519,4 +519,12 @@ form input[type=text], form textarea{
 #tags {
         display: none;
 }
-
+.licence-info p {
+    margin-left: 100px;
+}
+.licence-info a {
+    color: grey!important;
+}
+.licence-info img{
+    float:left;
+}
