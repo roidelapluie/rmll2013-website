@@ -20,7 +20,7 @@ fr:
     header_date_x: 579.724
     header_entrance_x: 662.636
     photocopyright: 'Photos du dessus de page: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, par <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, licence <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, par <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, licence <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
-    license: Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/be/">Licence Creative Commons BY-SA 2.0 Belgique</a>.
+    license: Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Licence Creative Commons BY-SA 3.0</a>.
 en:
     gold: "Platinium partners"
     silver: "Gold partners"
@@ -42,7 +42,7 @@ en:
     header_date_x: 556.619
     header_entrance_x: 654.055
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
-    license: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/be/deed.en">Creative Commons BY-SA 2.0 Belgium License</a>.
+    license: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0 License</a>.
 nl:
     gold: "Platinium partners"
     silver: "Gold partners"
@@ -64,4 +64,4 @@ nl:
     header_entrance_x: 654.055
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
     yourlibreproject: /content/nl/jouw-project.html
-    license: Dit werk is gelicenseerd onder een <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/be/deed.nl">Creative Commons BY-SA 2.0 België licentie</a>.
+    license: Dit werk is gelicenseerd onder een <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0 licentie</a>.
