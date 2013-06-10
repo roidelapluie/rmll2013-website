@@ -20,9 +20,9 @@ gold:
            nl: stad-brussel.png
            en: city-of-brussels.png
         website:
-           fr: http://www.brussels.be/
+           en: http://www.brussels.be/
            nl: http://www.brussel.be/
-           en: http://www.bruxelles.be/
+           fr: http://www.bruxelles.be/
     03cirb:
         name:
            fr: "Centre d'Informatique pour la Région Bruxelloise"
