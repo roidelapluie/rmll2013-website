@@ -47,21 +47,26 @@ fr:
         url: /fr/index.html
         menu_uid: home
     -
-        name: Hébergement
-        url: /fr/hebergement.html
-        menu_uid: hosting
-    -
         name: Programme Partiel
         url: http://schedule2013.rmll.info/?lang=fr
         menu_uid: schedule
     -
-        name: Réservations
-        url: https://reservation.rmll.info
-        menu_uid: booking
-    -
-        name: Participer
-        url: /fr/participer.html
-        menu_uid: participate
+        name: Informations pratiques
+        url: /fr/informations-pratiques/hebergement.html
+        menu_uid: pratique
+        dropdown:
+            -
+                name: Hébergement
+                url: /fr/hebergement.html
+            -
+                name: Réservations
+                url: https://reservation.rmll.info
+            -
+                name: Repas du libre
+                url: /fr/repas-du-libre.html
+            -
+                name: Participer
+                url: /fr/participer.html
     -
         name: Partenaires et sponsors
         url: /fr/partenaires-et-sponsors.html
