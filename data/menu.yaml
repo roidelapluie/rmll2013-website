@@ -88,6 +88,9 @@ fr:
             -
                 name: Contact et listes de diffusion
                 url: /fr/a-propos-des-rmll/contact.html
+            -
+                name: Coin presse
+                url: /fr/presse.html
 en:
     -
         name: Home
