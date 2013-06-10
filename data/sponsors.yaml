@@ -65,6 +65,10 @@ bronze:
         name: "April - promouvoir et défendre le logiciel libre"
         image: april.png
         website: http://www.april.org/
+    03commons:
+        name: Commons Machinery
+        image: commons_machinery.png
+        website: http://www.indiegogo.com/projects/please-credit-my-work
     03cesep:
         name: "Centre Socialiste d'Education Permanente"
         image: cesep.png
