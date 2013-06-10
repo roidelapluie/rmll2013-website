@@ -65,15 +65,22 @@ bronze:
         name: "April - promouvoir et défendre le logiciel libre"
         image: april.png
         website: http://www.april.org/
-    03commons:
+    04mageia:
+        name: Mageia
+        image: mageia.png
+        website:
+            fr: http://www.mageia.org/fr/
+            nl: http://www.mageia.org/nl/
+            en: http://www.mageia.org/en/
+    05commons:
         name: Commons Machinery
         image: commons_machinery.png
         website: http://www.indiegogo.com/projects/please-credit-my-work
-    03cesep:
+    06cesep:
         name: "Centre Socialiste d'Education Permanente"
         image: cesep.png
         website: http://www.cesep.be/
-    04constant:
+    07constant:
         name:
             fr: Constant ASBL
             nl: Constant VZW
@@ -83,15 +90,15 @@ bronze:
             fr: "http://www.constantvzw.org/site/?lang=fr"
             nl: "http://www.constantvzw.org/site/?lang=nl"
             en: "http://www.constantvzw.org/site/?lang=en"
-    05isib:
+    08isib:
         name: Institut Supérieur Industriel de Bruxelles
         image: isib.png
         website: http://www.isib.be
-    06swissvon:
+    09swissvon:
         name: SwissVON
         image: swissvon.png
         website: http://www.swissvon.ch/
-    07bxlug:
+    10bxlug:
         name: BxLUG
         image: bxlug.png
         website: http://www.bxlug.be
@@ -134,6 +141,10 @@ logistique:
             fr: https://www.resotel.be/rmll2013/FR
             nl: https://www.resotel.be/rmll2013
             en: https://www.resotel.be/rmll2013
+    10must:
+        name: Must Catering
+        image: must.png
+        website: http://www.must-catering.be/
 event:
     1openerp:
         name: Open Days OpenERP
