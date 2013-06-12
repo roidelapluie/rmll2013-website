@@ -57,6 +57,10 @@ bronze:
         name: Free IT Foundation
         image: free-it-foundation.png
         website: http://www.free-it-foundation.org/
+    01adacore:
+        name: AdaCore
+        image: adacore.png
+        website: http://www.adacore.com/
     02smile:
         name: Smile
         image: smile.png
