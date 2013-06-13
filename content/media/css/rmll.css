@@ -528,3 +528,6 @@ form input[type=text], form textarea{
 .licence-info img{
     float:left;
 }
+.menu p{
+    text-align:center!important;
+}
