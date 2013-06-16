@@ -5,21 +5,26 @@ nl:
         url: /nl/index.html
         menu_uid: home
     -
-        name: Deelnemen
-        url: /nl/deelnemen.html
-        menu_uid: participate
-    -
-        name: Onderdak
-        url: /nl/onderdak.html
-        menu_uid: hosting
-    -
         name: Voorlopig programma
         url: http://schedule2013.rmll.info/?lang=nl
         menu_uid: schedule
     -
-        name: Reservering
-        url: https://reservation.rmll.info
-        menu_uid: booking
+        name: Inlichtingen
+        url: /nl/onderdak.html
+        menu_uid: pratique
+        dropdown:
+            -
+                name: Onderdak
+                url: /nl/onderdak.html
+            -
+                name: Publieksweekend
+                url: /nl/publieksweekend.html
+            -
+                name: Reservering
+                url: https://reservation.rmll.info
+            -
+                name: Deelnemen
+                url: /nl/deelnemen.html
     -
         name: Partners en sponsors
         url: /nl/partners-en-sponsors.html
@@ -59,6 +64,9 @@ fr:
                 name: Hébergement
                 url: /fr/hebergement.html
             -
+                name: Journées Grand Public
+                url: /fr/journees-grand-public.html
+            -
                 name: Réservations
                 url: https://reservation.rmll.info
             -
@@ -97,27 +105,32 @@ en:
         url: /en/index.html
         menu_uid: home
     -
-        name: Hosting
+        name: Practical information
         url: /en/hosting.html
-        menu_uid: hosting
+        menu_uid: pratique
+        dropdown:
+            -
+                name: Hosting
+                url: /en/hosting.html
+            -
+                name: General Public Weekend
+                url: /en/general-public-weekend.html
+            -
+                name: Booking
+                url: https://reservation.rmll.info
+            -
+                name: Getting involved
+                url: /en/gettinginvolved.html
     -
         name: Program
         url: http://schedule2013.rmll.info/?lang=en
         menu_uid: schedule
     -
-        name: Booking
-        url: https://reservation.rmll.info
-        menu_uid: booking
-    -
-        name: Getting involved
-        url: /en/gettinginvolved.html
-        menu_uid: participate
-    -
         name: Partners and sponsors
         url: /en/partners-and-sponsors.html
         menu_uid: partners
     -
-        name: About the LSM
+        name: About the lsm
         url: /en/about-lsm/index.html
         menu_uid: about
         dropdown:
