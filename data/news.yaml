@@ -5,24 +5,24 @@ fr:
         url: https://reservation.rmll.info
         date: 25 mai 2013
     organisation:
-        text: "Vous pouvez dès maintenant voir le programme temporaire."
-        url: http://schedule2013.rmll.info
-        date: 25 mai 2013
+        text: "Participez au Village du Libre"
+        url: https://2013.rmll.info/fr/appel-aux-stands.html
+        date: 16 juin 2013
 en:
     information:
         text: 'The booking interface is now online.'
         url: https://reservation.rmll.info
         date: May 25th, 2013
     organisation:
-        text: "Discover the temporary schedule of the Libre Software Meeting!"
-        url: http://schedule2013.rmll.info
-        date: May 25th, 2013
+        text: "Apply for a booth in the Libre Village"
+        url: https://2013.rmll.info/en/booth-libre-village.html
+        date: Juny 16th, 2013
 nl:
     information:
         text: 'The booking interface is now online.'
         url: https://reservation.rmll.info
         date: 25 mei 2013
     organisation:
-        text: "Discover the temporary schedule of the Libre Software Meeting!"
-        url: http://schedule2013.rmll.info
-        date: 25 mei 2013
+        text: "Apply for a booth in the Libre Village"
+        url: https://2013.rmll.info/nl/standaanvraag.html
+        date: 16 juni 2013

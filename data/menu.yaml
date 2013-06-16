@@ -23,8 +23,8 @@ nl:
                 name: Reservering
                 url: https://reservation.rmll.info
             -
-                name: Deelnemen
-                url: /nl/deelnemen.html
+                name: Apply for the Libre Village
+                url: /nl/standaanvraag.html.html
     -
         name: Partners en sponsors
         url: /nl/partners-en-sponsors.html
@@ -73,8 +73,8 @@ fr:
                 name: Repas du libre
                 url: /fr/repas-du-libre.html
             -
-                name: Participer
-                url: /fr/participer.html
+                name: Participez au Village du Libre
+                url: /fr/appel-aux-stands.html
     -
         name: Partenaires et sponsors
         url: /fr/partenaires-et-sponsors.html
@@ -119,8 +119,8 @@ en:
                 name: Booking
                 url: https://reservation.rmll.info
             -
-                name: Getting involved
-                url: /en/gettinginvolved.html
+                name: Apply for a booth in the Libre Village
+                url: /en/booth-libre-village.html
     -
         name: Program
         url: http://schedule2013.rmll.info/?lang=en
