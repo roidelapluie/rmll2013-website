@@ -83,3 +83,17 @@ aub1:
     img: /media/img/dodo.png
     imgsize: 20,20
     imgoffset: -10,-10
+europarl:
+    lat: 50.83866
+    long: 4.375297
+    title:
+       fr: Parlement Européen
+       nl: Europees Parlement
+       en: European Parliament
+    description:
+       fr: 60, rue Wiertz<br />B-1047 Bruxelles
+       en: 60, rue Wiertz<br />B-1047 Bruxelles
+       nl: 60, rue Wiertz<br />B-1047 Bruxelles
+    img: /media/img/europarl.png
+    imgsize: 20,20
+    imgoffset: -10,-10
