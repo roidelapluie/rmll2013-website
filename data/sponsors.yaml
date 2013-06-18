@@ -52,6 +52,10 @@ silver:
         name: Audaxis
         image: audaxis.png
         website: http://www.audaxis.com/
+    02normation:
+        name: Normation
+        image: normation.png
+        website: http://www.normation.com/
 bronze:
     01freeit:
         name: Free IT Foundation
