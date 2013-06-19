@@ -23,6 +23,9 @@ nl:
                 name: Reservering
                 url: https://reservation.rmll.info
             -
+                name: Libre Avondmaal
+                url: /nl/libre-avondmaal.html
+            -
                 name: Apply for the Libre Village
                 url: /nl/standaanvraag.html.html
     -
@@ -118,6 +121,9 @@ en:
             -
                 name: Booking
                 url: https://reservation.rmll.info
+            -
+                name: Libre Dinner
+                url: /en/libre-dinner.html
             -
                 name: Apply for a booth in the Libre Village
                 url: /en/booth-libre-village.html
