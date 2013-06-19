@@ -78,6 +78,9 @@ fr:
             -
                 name: Participez au Village du Libre
                 url: /fr/appel-aux-stands.html
+            -
+                name: Accès
+                url: /fr/acces.html
     -
         name: Partenaires et sponsors
         url: /fr/partenaires-et-sponsors.html
@@ -127,6 +130,9 @@ en:
             -
                 name: Apply for a booth in the Libre Village
                 url: /en/booth-libre-village.html
+            -
+                name: Transportation
+                url: /en/transportation.html
     -
         name: Program
         url: http://schedule2013.rmll.info/?lang=en
