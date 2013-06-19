@@ -111,6 +111,14 @@ bronze:
         image: bxlug.png
         website: http://www.bxlug.be
 logistique:
+    001btn:
+        name: Blue Network Technologies
+        image: bnt.png
+        website: http://www.bluenetech.com/
+    002btn:
+        name: Nimag
+        image: nimag.png
+        website: http://www.nimag.net/
     01ffw:
         name: Fédération France Wireless
         image: ffw.png
