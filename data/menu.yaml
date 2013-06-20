@@ -28,6 +28,9 @@ nl:
             -
                 name: Apply for the Libre Village
                 url: /nl/standaanvraag.html.html
+            -
+                name: JURI Workshop about free software
+                url: /nl/juri.html
     -
         name: Partners en sponsors
         url: /nl/partners-en-sponsors.html
@@ -138,7 +141,7 @@ en:
                 url: /en/transportation.html
             -
                 name: JURI Workshop about free software
-                url: /nl/juri.html
+                url: /en/juri.html
     -
         name: Program
         url: http://schedule2013.rmll.info/?lang=en
@@ -164,6 +167,3 @@ en:
             -
                 name: Contact and mailing lists
                 url: /en/about-lsm/contact.html
-            -
-                name: JURI Workshop about free software
-                url: /en/juri.html
