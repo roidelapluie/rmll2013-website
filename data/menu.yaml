@@ -5,7 +5,7 @@ nl:
         url: /nl/index.html
         menu_uid: home
     -
-        name: Voorlopig programma
+        name: Programma
         url: http://schedule2013.rmll.info/?lang=nl
         menu_uid: schedule
     -
@@ -58,7 +58,7 @@ fr:
         url: /fr/index.html
         menu_uid: home
     -
-        name: Programme Partiel
+        name: Programme
         url: http://schedule2013.rmll.info/?lang=fr
         menu_uid: schedule
     -
