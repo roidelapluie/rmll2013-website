@@ -48,11 +48,15 @@ gold:
         image: ulb.png
         website: http://ulb.ac.be
 silver:
-    01audaxis:
+    01cocof:
+        name: Commission communautaire française (COCOF)
+        image: cocof.png
+        website: http://www.cocof.irisnet.be/
+    02audaxis:
         name: Audaxis
         image: audaxis.png
         website: http://www.audaxis.com/
-    02normation:
+    03normation:
         name: Normation
         image: normation.png
         website: http://www.normation.com/
