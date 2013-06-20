@@ -81,6 +81,9 @@ fr:
             -
                 name: Accès
                 url: /fr/acces.html
+            -
+                name: JURI Workshop au Parlement Européen
+                url: /fr/juri.html
     -
         name: Partenaires et sponsors
         url: /fr/partenaires-et-sponsors.html
@@ -133,6 +136,9 @@ en:
             -
                 name: Transportation
                 url: /en/transportation.html
+            -
+                name: JURI Workshop about free software
+                url: /nl/juri.html
     -
         name: Program
         url: http://schedule2013.rmll.info/?lang=en
@@ -158,3 +164,6 @@ en:
             -
                 name: Contact and mailing lists
                 url: /en/about-lsm/contact.html
+            -
+                name: JURI Workshop about free software
+                url: /en/juri.html

@@ -173,4 +173,7 @@ event:
     2europarl:
         name: JURI Workshop about free software
         image: europarl.png
-        website: http://joinup.ec.europa.eu/news/report-european-parliaments-free-software-use-coming
+        website:
+            fr: /fr/juri.html
+            nl: /nl/juri.html
+            en: /en/juri.html

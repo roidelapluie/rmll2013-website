@@ -1,27 +1,27 @@
 ---
 fr:
     information:
-        text: 'La réservation est en ligne!'
-        url: https://reservation.rmll.info
-        date: 25 mai 2013
+        text: 'Inscrivez vous pour participer au JURI Workshop'
+        url: /fr/juri.html
+        date: 20 juin 2013
     organisation:
         text: "Participez au Village du Libre"
         url: https://2013.rmll.info/fr/appel-aux-stands.html
         date: 16 juin 2013
 en:
     information:
-        text: 'The booking interface is now online.'
-        url: https://reservation.rmll.info
-        date: May 25th, 2013
+        text: 'Subscribe to attend the JURI Workshop'
+        url: /en/juri.html
+        date: June 20th, 2013
     organisation:
         text: "Apply for a booth in the Libre Village"
         url: https://2013.rmll.info/en/booth-libre-village.html
-        date: Juny 16th, 2013
+        date: June 16th, 2013
 nl:
     information:
-        text: 'The booking interface is now online.'
-        url: https://reservation.rmll.info
-        date: 25 mei 2013
+        text: 'Subscribe to attend the JURI Workshop'
+        url: /nl/juri.html
+        date: 20 juni 2013
     organisation:
         text: "Apply for a booth in the Libre Village"
         url: https://2013.rmll.info/nl/standaanvraag.html
