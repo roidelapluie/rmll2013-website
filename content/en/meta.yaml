@@ -5,8 +5,14 @@ header_image: home-en.png
 language: en
 sidebar:
     -
-        name: PARTIAL %PROGRAM%
+        name: PROGRAM
         url: http://schedule2013.rmll.info/?lang=en
     -
-        name: '%BOOKING%'
+        name: '%LIBRE% DINNER'
+        url: /en/libre-dinner.html
+    -
+        name: 'JURI %WORKSHOP%'
+        url: /en/juri.html
+    -
+        name: 'BOOKING'
         url: https://reservation.rmll.info

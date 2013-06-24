@@ -4,8 +4,14 @@ header_image: home-fr.png
 default_block: post
 sidebar:
     -
-        name: PROGRAMME %PARTIEL%
+        name: PROGRAMME
         url: http://schedule2013.rmll.info/?lang=fr
+    -
+        name: REPAS DU %LIBRE%
+        url: /fr/repas-du-libre.html
+    -
+        name: '%JURI% WORKSHOP'
+        url: /fr/juri.html
     -
         name: RÉSERVATIONS
         url: https://reservation.rmll.info

@@ -2,8 +2,14 @@ language: nl
 header_image: home-nl.png
 sidebar:
     -
-        name: 'VOORLOPIG %PROGRAMMA%'
+        name: 'PROGRAMMA'
         url: http://schedule2013.rmll.info/?lang=nl
     -
-        name: '%RESERVERING%'
+        name: '%LIBRE% AVONDMAAL'
+        url: /nl/libre-avondmaal.html
+    -
+        name: 'JURI %WORKSHOP%'
+        url: /nl/juri.html
+    -
+        name: 'RESERVERING'
         url: https://reservation.rmll.info
