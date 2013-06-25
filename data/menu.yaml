@@ -79,18 +79,26 @@ fr:
                 name: Repas du libre
                 url: /fr/repas-du-libre.html
             -
-                name: Participez au Village du Libre
-                url: /fr/appel-aux-stands.html
+                name: JURI Workshop au Parlement Européen
+                url: /fr/juri.html
             -
                 name: Accès
                 url: /fr/acces.html
-            -
-                name: JURI Workshop au Parlement Européen
-                url: /fr/juri.html
     -
         name: Partenaires et sponsors
         url: /fr/partenaires-et-sponsors.html
         menu_uid: partners
+    -
+        name: Participer
+        url: /fr/participer.html
+        menu_uid: participate
+        dropdown:
+            -
+                name: Participez au Village du Libre
+                url: /fr/appel-aux-stands.html
+            -
+                name: Participez en tant que bénévole
+                url: /fr/participer.html
     -
         name: A propos des RMLL
         url: /fr/a-propos-des-rmll/index.html
@@ -106,11 +114,11 @@ fr:
                 name: Définition du logiciels libres
                 url: /fr/a-propos-des-rmll/definition-du-logiciel-libre.html
             -
-                name: Contact et listes de diffusion
-                url: /fr/a-propos-des-rmll/contact.html
-            -
                 name: Coin presse
                 url: /fr/presse.html
+            -
+                name: Contact et listes de diffusion
+                url: /fr/a-propos-des-rmll/contact.html
 en:
     -
         name: Home
