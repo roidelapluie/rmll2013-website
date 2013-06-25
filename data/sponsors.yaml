@@ -47,6 +47,10 @@ gold:
         name: "Université libre de Bruxelles"
         image: ulb.png
         website: http://ulb.ac.be
+    06wal:
+        name: "Région Wallonne"
+        image: coq_wallon.png
+        website: http://wallonie.be
 silver:
     01cocof:
         name: Commission communautaire française (COCOF)
@@ -60,6 +64,10 @@ silver:
         name: Normation
         image: normation.png
         website: http://www.normation.com/
+    04lesoir:
+        name: Le Soir
+        image: lesoir.png
+        website: http://www.lesoir.be
 bronze:
     01freeit:
         name: Free IT Foundation
