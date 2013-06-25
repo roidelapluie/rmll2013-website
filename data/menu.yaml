@@ -63,7 +63,7 @@ fr:
         menu_uid: schedule
     -
         name: Informations pratiques
-        url: /fr/informations-pratiques/hebergement.html
+        url: /fr/hebergement.html
         menu_uid: pratique
         dropdown:
             -
