@@ -118,6 +118,10 @@ bronze:
         name: SwissVON
         image: swissvon.png
         website: http://www.swissvon.ch/
+    09tryton:
+        name: Tryton
+        image: tryton.png
+        website: http://www.tryton.org/
     10bxlug:
         name: BxLUG
         image: bxlug.png
