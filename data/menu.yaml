@@ -26,8 +26,8 @@ nl:
                 name: Libre Avondmaal
                 url: /nl/libre-avondmaal.html
             -
-                name: Apply for the Libre Village
-                url: /nl/standaanvraag.html.html
+                name: LPI Certification
+                url: /nl/lpi.html
             -
                 name: JURI Workshop about free software
                 url: /nl/juri.html
@@ -78,6 +78,9 @@ fr:
             -
                 name: Repas du libre
                 url: /fr/repas-du-libre.html
+            -
+                name: LPI Certification
+                url: /fr/lpi.html
             -
                 name: JURI Workshop au Parlement Européen
                 url: /fr/juri.html
@@ -144,6 +147,9 @@ en:
             -
                 name: Apply for a booth in the Libre Village
                 url: /en/booth-libre-village.html
+            -
+                name: LPI Certification
+                url: /en/lpi.html
             -
                 name: Transportation
                 url: /en/transportation.html

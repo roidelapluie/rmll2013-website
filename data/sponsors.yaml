@@ -177,11 +177,18 @@ logistique:
         name: Must Catering
         image: must.png
         website: http://www.must-catering.be/
+    11vis:
+        name: Visit Brussels
+        image: visitbxl.png
+        website: http://visitbrussels.be/bitc/front/propertyValue/display/clt/BE_fr/id/106/idCongressiste/25.do
 event:
-    1openerp:
-        name: Open Days OpenERP
-        image: openerp.png
-        website: https://opendays.openerp.com/
+    1lpi:
+        name: Linux Professional Institute
+        image: lpi.png
+        website:
+            fr: /fr/lpi.html
+            nl: /nl/lpi.html
+            en: /en/lpi.html
     2europarl:
         name: JURI Workshop about free software
         image: europarl.png
@@ -189,3 +196,7 @@ event:
             fr: /fr/juri.html
             nl: /nl/juri.html
             en: /en/juri.html
+    3openerp:
+        name: Open Days OpenERP
+        image: openerp.png
+        website: https://opendays.openerp.com/
