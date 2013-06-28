@@ -11,5 +11,8 @@ sidebar:
         name: 'JURI %WORKSHOP%'
         url: /nl/juri.html
     -
+        name: '%LPI% CERTIFICATION'
+        url: /nl/lpi.html
+    -
         name: 'RESERVERING'
         url: https://reservation.rmll.info
