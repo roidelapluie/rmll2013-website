@@ -29,6 +29,7 @@
 !!python/unicode 'fr/a-propos-des-rmll/le-libre-est-a-vous.html': [macros.j2, base.j2]
 !!python/unicode 'fr/ac.html': [macros.j2, base.j2]
 !!python/unicode 'fr/acces.html': [macros.j2, base.j2]
+!!python/unicode 'fr/accessibilite.html': [macros.j2, base.j2]
 !!python/unicode 'fr/blog/index.html': [blog.j2, macros.j2, base.j2]
 !!python/unicode 'fr/candidature.html': [macros.j2, base.j2]
 !!python/unicode 'fr/detentes.html': [macros.j2, base.j2]

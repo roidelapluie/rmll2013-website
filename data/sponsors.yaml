@@ -126,6 +126,22 @@ bronze:
         name: BxLUG
         image: bxlug.png
         website: http://www.bxlug.be
+    11codelutin:
+        name: Code Lutin
+        image: codelutin.png
+        website: http://www.codelutin.com/
+    12nereide:
+        name: Néreide
+        image: nereide.png
+        website: http://www.nereide.fr/
+    13silecs:
+        name: SILECS
+        image: silecs.png
+        website: http://www.silecs.info/
+    14librerntreprise:
+        name: Réseau Libre entreprise
+        image: librentreprise.png
+        website: http://www.libre-entreprise.org/
 logistique:
     001btn:
         name: Blue Network Technologies
@@ -135,6 +151,10 @@ logistique:
         name: Nimag
         image: nimag.png
         website: http://www.nimag.net/
+    003softwareinbrussels:
+        name: Software in Brussels
+        image: softwareinbrussels.png
+        website: http://softwareinbrussels.be/
     01ffw:
         name: Fédération France Wireless
         image: ffw.png
