@@ -1,27 +1,27 @@
 ---
 fr:
     information:
-        text: "Retrouvez nos informations sur l'accessibilité pendant les RMLL"
-        url: /fr/accessibilite.html
-        date: 5 juillet 2013
+        text: "Retrouvons-nous à la Place de la Monnaie aujourd'hui!"
+        url: /fr/journees-grand-public.html
+        date: 6 juillet 2013
     organisation:
         text: "Restez informés en nous suivant sur twitter"
         url: https://twitter.com/rmll2013
         date: 5 juillet 2013
 en:
     information:
-        text: 'See you tomorrow during the General Public Weekend!'
+        text: 'See you today at the General Public Weekend!'
         url: /en/general-public-weekend.html
-        date: July 5th, 2013
+        date: July 6th, 2013
     organisation:
         text: "Follow us on twitter to stay up-to-date"
         url: https://twitter.com/rmll2013
         date: July 5th, 2013
 nl:
     information:
-        text: 'Tot morgen voor het publieksweekend!'
+        text: 'Tot straks voor het publieksweekend!'
         url: /nl/publieksweekend.html
-        date: 5 juli 2013
+        date: 6 juli 2013
     organisation:
         text: "Follow us on twitter to stay up-to-date"
         url: https://twitter.com/rmll2013
