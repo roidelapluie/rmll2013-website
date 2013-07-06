@@ -31,6 +31,9 @@ nl:
             -
                 name: JURI Workshop about free software
                 url: /nl/juri.html
+            -
+                name: Apply for a lightning talk
+                url: /nl/lt.html
     -
         name: Partners en sponsors
         url: /nl/partners-en-sponsors.html
@@ -100,8 +103,8 @@ fr:
         menu_uid: participate
         dropdown:
             -
-                name: Participez au Village du Libre
-                url: /fr/appel-aux-stands.html
+                name: Proposez un lightning talk
+                url: /fr/lt.html
             -
                 name: Participez en tant que bénévole
                 url: /fr/participer.html
@@ -148,8 +151,8 @@ en:
                 name: Libre Dinner
                 url: /en/libre-dinner.html
             -
-                name: Apply for a booth in the Libre Village
-                url: /en/booth-libre-village.html
+                name: Apply for a lightning talk
+                url: /en/lt.html
             -
                 name: LPI Certification
                 url: /en/lpi.html
