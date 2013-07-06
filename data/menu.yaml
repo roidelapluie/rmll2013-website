@@ -9,6 +9,10 @@ nl:
         url: http://schedule2013.rmll.info/?lang=nl
         menu_uid: schedule
     -
+        name: Vrij dorp
+        url: /nl/dorp.html
+        menu_uid: village
+    -
         name: Inlichtingen
         url: /nl/onderdak.html
         menu_uid: pratique
@@ -64,6 +68,10 @@ fr:
         name: Programme
         url: http://schedule2013.rmll.info/?lang=fr
         menu_uid: schedule
+    -
+        name: Village du libre
+        url: /fr/village.html
+        menu_uid: village
     -
         name: Informations pratiques
         url: /fr/hebergement.html
@@ -134,6 +142,14 @@ en:
         url: /en/index.html
         menu_uid: home
     -
+        name: Program
+        url: http://schedule2013.rmll.info/?lang=en
+        menu_uid: schedule
+    -
+        name: Libre Village
+        url: /en/village.html
+        menu_uid: village
+    -
         name: Practical information
         url: /en/hosting.html
         menu_uid: pratique
@@ -162,10 +178,6 @@ en:
             -
                 name: JURI Workshop about free software
                 url: /en/juri.html
-    -
-        name: Program
-        url: http://schedule2013.rmll.info/?lang=en
-        menu_uid: schedule
     -
         name: Partners and sponsors
         url: /en/partners-and-sponsors.html

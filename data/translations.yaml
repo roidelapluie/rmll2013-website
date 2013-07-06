@@ -21,6 +21,11 @@ fr:
     header_entrance_x: 662.636
     photocopyright: 'Photos du dessus de page: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, par <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, licence <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, par <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, licence <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
     license: Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Licence Creative Commons BY-SA 3.0</a>.
+    village_eco: Économie du Libre
+    village_edu: Recherche et éducation
+    village_acti: Activisme
+    village_com: Communautés
+    location_booth: Emplacement
 en:
     gold: "Platinium partners"
     silver: "Gold partners"
@@ -43,6 +48,11 @@ en:
     header_entrance_x: 654.055
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
     license: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0 License</a>.
+    village_eco: Economy around Free Softwares
+    village_edu: Research and Education
+    village_acti: Activism
+    village_com: Community
+    location_booth: Location
 nl:
     gold: "Platinium partners"
     silver: "Gold partners"
@@ -65,3 +75,8 @@ nl:
     photocopyright: 'Photographes of the header: <a href="http://www.fotopedia.com/items/flickr-4257746013">Mont des Arts</a>, by <a href="http://www.fotopedia.com/users/infomatique">William Murphy</a>, license <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. <a href="http://fr.wikipedia.org/wiki/Fichier:Blason_ville_fr_Bruxelles-Empire.svg">Blason de Bruxelles</a>, by <a href="http://commons.wikimedia.org/wiki/User:Spedona">Spedona</a>, license <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>.'
     yourlibreproject: /content/nl/jouw-project.html
     license: Dit werk is gelicenseerd onder een <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA 3.0 licentie</a>.
+    village_eco: Economy around Free Softwares
+    village_edu: Research and Education
+    village_acti: Activism
+    village_com: Community
+    location_booth: Location

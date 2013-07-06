@@ -1,0 +1,185 @@
+---
+education:
+    01axul:
+        name: "AXUL, Association du pays d'Aix des utilisateurs de Linux et des logiciels libres"
+        website: http://axul.org/
+        image: axul.png
+        location: 'A6'
+    02slat:
+        name: 'Software Liberty Association of Taiwan'
+        image: slat.png
+        website: http://www.slat.org/slat/
+        location: C2
+    03modlibre:
+        name: "Modlibre.org"
+        image: modlibre.png
+        location: A5
+        website: http://modlibre.org
+    04plume:
+        name: "Plume"
+        image: plume.png
+        location: A7
+        website: https://www.projet-plume.org/
+    05bulma:
+        name: 'Bisoños Usuarios de GNU/Linux de Mallorca y Alrededores'
+        image: bulma.png
+        location: C1
+        website: http://bulma.net/
+    06cirb:
+        name:
+           fr: "Centre d'Informatique pour la Région Bruxelloise"
+           nl: "Centrum Voor Imformatica Voor Het Brusselse Gewest"
+           en: "Brussels Regional Informatics Centre"
+        image:
+           fr: cirb.png
+           nl: cibg.png
+           en: bric.png
+        website:
+           fr: http://www.cirb.irisnet.be/
+           nl: http://www.cibg.irisnet.be/
+           en: http://www.bric.irisnet.be/
+        location: A2
+community:
+    01bsdfrance:
+        name: BSD France
+        image: bsdfrance.png
+        location: E1
+        website: http://www.bsdfrance.fr/
+    02borsalinux:
+        name: Association Borsalinux-fr
+        image: borsalinux.png
+        location: E2
+        website: http://www.borsalinux-fr.org/
+    03mageia:
+        name: Mageia
+        image: mageia.png
+        website: http://www.mageia.org/en/
+        location: E3
+    04afuj:
+        name: Association Francophone des Utilisateurs de Joomla
+        website: http://www.afuj.fr/
+        image: afuj.png
+        location: E0
+    05scenari:
+        name: Scenari
+        website: http://scenari-platform.org/projects/scenari/fr/pres/co/
+        image: scenari.png
+        location: E4
+    06haiku:
+        name: Haiku
+        website: https://www.haiku-os.org/
+        image: haiku.png
+        location: E5
+    07rudder:
+        name: Rudder
+        image: rudder.png
+        location: E6
+        website: http://www.rudder-project.org/
+    08lamouette:
+        name: La mouette
+        image: lamouette.png
+        location: E7
+        website: http://www.lamouette.org/
+    09nightingale:
+        image: nightingale.png
+        name: Nightingale
+        website: http://getnightingale.com/
+        location: E8
+    10centreon:
+        image: centreon.png
+        name: Centreon
+        website: http://community.centreon.com/
+        location: E9
+    11oscar:
+        name: "Outil Système Complet d'Assistance Réseau (OSCAR)"
+        image: oscar.png
+        website: http://oscar.crdp-lyon.fr/
+        location: EA
+    12nui:
+        website: http://www.nui.fr/
+        name: Novell Users International LUG
+        location: EB
+        image: nui.png
+    13osm:
+        name: OpenStreetMap
+        website: http://openstreetmap.org
+        location: EC
+        image: openstreetmap.png
+    14tuleap:
+        name: Tuleap
+        website: https://tuleap.net/
+        location: ED
+        image: tuleap.png
+economie:
+    01alliancelibre:
+        name: Alliance libre
+        website: http://www.alliance-libre.org/
+        location: C3
+        image: alliancelibre.png
+    02caplibre:
+        website: http://caplibre.fr/
+        name: Cap libre
+        image: caplibre.png
+        location: C3
+    03cnll:
+        website: http://www.cnll.fr
+        name: Conseil National du Logiciel Libre
+        image: cnll.png
+        location: C3
+    04abc:
+        website: http://www.librairiedumidi.be
+        name: ABC Librairie du Midi
+        image: abc.png
+        location: C4
+    05snalis:
+        website: http://snalis.org
+        name: Saint Nazaire Association Libre Informatique et Solidaire
+        image: snalis.png
+        location: B3
+activisme:
+    01ffii:
+        name: Foundation for a Free Information
+        website: http://ffii.org/
+        image: ffii.png
+        location: A1
+    02traduc:
+        name: Traduc.org
+        website: http://traduc.org
+        location: A4
+        image: traduc.png
+    03floss:
+        name: FLOSS Manuals Franchophone
+        website: http://fr.flossmanuals.net/
+        location: A3
+        image: flossman.png
+    04frul:
+        name: Fédération Régionale des Utilisateurs du Libre
+        website: http://frul.org/
+        image: frul.png
+        location: B0
+    05fw:
+        name: Fédération France Wireless
+        website: http://wireless-fr.org
+        image: ffw.png
+        location: B0
+    06fsfe:
+        name: Free Software Foundation Europe
+        website: http://fsfe.org
+        image: fsfe.png
+        location: C0
+    07framasoft:
+        name: Framasoft
+        website: http://framasoft.org
+        image: framasoft.png
+        location: B1
+    08doudou:
+        name: Doudoulinux
+        website: http://www.doudoulinux.org/
+        image: doudou.png
+        location: B2
+    09april:
+        name: April
+        website: http://april.org
+        image: april.png
+        location: A0
+

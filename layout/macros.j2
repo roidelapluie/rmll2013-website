@@ -1,6 +1,84 @@
 {% macro translate(text) -%}
 {{translations[resource.meta.language][text]}}
 {%- endmacro %}
+{% macro print_village_category(category) %}
+{%- for booth in booths[category]|sort -%}
+<a" href="
+{%-
+    if booths[category][booth[0]]['website'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['website'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['website']}}
+{%-
+    endif
+-%}
+"><img style="float: left; padding: 1em; clear: left;" src="/media/img/village/
+{%-
+    if booths[category][booth[0]]['image'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['image'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['image']}}
+{%-
+    endif
+-%}
+" title="
+{%-
+    if booths[category][booth[0]]['name'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['name'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['name']}}
+{%-
+    endif
+-%}
+" alt="
+{%-
+    if booths[category][booth[0]]['name'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['name'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['name']}}
+{%-
+    endif
+-%}
+" /></a>
+<strong>
+{%-
+    if booths[category][booth[0]]['name'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['name'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['name']}}
+{%-
+    endif
+-%}
+</strong><br />
+<a href="
+{%-
+    if booths[category][booth[0]]['website'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['website'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['website']}}
+{%-
+    endif
+-%}
+">
+{%-
+    if booths[category][booth[0]]['website'][resource.meta.language] is defined
+-%}
+    {{booths[category][booth[0]]['website'][resource.meta.language]}}
+{%- else -%}
+    {{booths[category][booth[0]]['website']}}
+{%-
+    endif
+-%}
+</a><br />
+{{translate('location_booth')}}: <strong>{{booths[category][booth[0]]['location']}}</strong><hr />
+{%- endfor -%}
+{% endmacro %}
 {% macro print_sponsors_category(category) %}
 {%- for sponsor in sponsors[category]|sort -%}
 <a href="
@@ -45,6 +123,30 @@
 -%}
 " /></a>
 {%- endfor -%}
+{% endmacro %}
+{% macro print_village() %}
+<h2>{{ translate('village_edu') }}</h1>
+<hr />
+<p class="village">
+{{print_village_category('education')}}
+</p>
+<h2>{{ translate('village_com') }}</h1>
+<hr />
+<p class="village">
+{{print_village_category('community')}}
+</p>
+<h2>{{ translate('village_eco') }}</h1>
+<hr />
+<p class="village">
+{{print_village_category('economie')}}
+</p>
+<h2>{{ translate('village_acti') }}</h1>
+<hr />
+<p class="village">
+{{print_village_category('activisme')}}
+</p><br />
+<img src="/media/img/village/floor0.png" alt="map"><hr />
+<img src="/media/img/village/floor1.png" alt="map">
 {% endmacro %}
 {% macro print_sponsors() %}
 <h1>{{ translate('sponsors') }}</h1>

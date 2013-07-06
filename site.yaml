@@ -21,6 +21,7 @@ context:
         menu: data/menu.yaml
         news: data/news.yaml
         sponsors: data/sponsors.yaml
+        booths: data/village.yaml
         locations: data/locations.yaml
     data:
         languages_enabled:
