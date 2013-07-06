@@ -18,5 +18,8 @@ sidebar:
     -
         name: RÉSERVATIONS
         url: https://reservation.rmll.info
+    -
+        name: '%RADIO% RMLL'
+        url: https://radio.rmll.info
 
 
