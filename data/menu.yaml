@@ -74,7 +74,7 @@ fr:
         menu_uid: village
     -
         name: Informations pratiques
-        url: /fr/hebergement.html
+        url: '#'
         menu_uid: pratique
         dropdown:
             -
@@ -107,7 +107,7 @@ fr:
         menu_uid: partners
     -
         name: Participer
-        url: /fr/participer.html
+        url: '#'
         menu_uid: participate
         dropdown:
             -
@@ -118,7 +118,7 @@ fr:
                 url: /fr/participer.html
     -
         name: A propos des RMLL
-        url: /fr/a-propos-des-rmll/index.html
+        url: '#'
         menu_uid: about
         dropdown:
             -
@@ -151,7 +151,7 @@ en:
         menu_uid: village
     -
         name: Practical information
-        url: /en/hosting.html
+        url: '#'
         menu_uid: pratique
         dropdown:
             -
@@ -184,7 +184,7 @@ en:
         menu_uid: partners
     -
         name: About the lsm
-        url: /en/about-lsm/index.html
+        url: '#'
         menu_uid: about
         dropdown:
             -
