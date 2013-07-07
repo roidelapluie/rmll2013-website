@@ -14,7 +14,7 @@ nl:
         menu_uid: village
     -
         name: Inlichtingen
-        url: /nl/onderdak.html
+        url: '#'
         menu_uid: pratique
         dropdown:
             -
@@ -44,7 +44,7 @@ nl:
         menu_uid: partners
     -
         name: Over de LSM
-        url: /nl/over-de-lsm/index.html
+        url: '#'
         menu_uid: about
         dropdown:
             -
@@ -167,9 +167,6 @@ en:
                 name: Libre Dinner
                 url: /en/libre-dinner.html
             -
-                name: Apply for a lightning talk
-                url: /en/lt.html
-            -
                 name: LPI Certification
                 url: /en/lpi.html
             -
@@ -178,6 +175,17 @@ en:
             -
                 name: JURI Workshop about free software
                 url: /en/juri.html
+    -
+        name: Getting involved
+        url: '#'
+        menu_uid: participate
+        dropdown:
+            -
+                name: Apply for a lightning talk
+                url: /en/lt.html
+            -
+                name: Be a volunteer
+                url: /en/gettinginvolved.html
     -
         name: Partners and sponsors
         url: /en/partners-and-sponsors.html
