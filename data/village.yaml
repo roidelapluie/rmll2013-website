@@ -25,6 +25,11 @@ education:
         image: bulma.png
         location: C1
         website: http://bulma.net/
+    05mozilla:
+        website: http://mozilla.org
+        name: Mozilla
+        image: mozilla.png
+        location: C1
     06cirb:
         name:
            fr: "Centre d'Informatique pour la Région Bruxelloise"
