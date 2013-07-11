@@ -151,6 +151,10 @@ logistique:
         name: Nimag
         image: nimag.png
         website: http://www.nimag.net/
+    002ubicast:
+        name: Ubicast
+        image: ubicast.png
+        website: http://ubicast.eu/
     003softwareinbrussels:
         name: Software in Brussels
         image: softwareinbrussels.png
