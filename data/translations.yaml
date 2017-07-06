@@ -1,5 +1,7 @@
 ---
 fr:
+    abelli-initiative: |
+        Une initiative d'<a href="http://abelli-asbl.be">Abelli</a>.
     gold: "Partenaires de platine"
     silver: "Partenaires d'or"
     bronze: "Partenaires d'argent"
@@ -27,6 +29,8 @@ fr:
     village_com: Communautés
     location_booth: Emplacement
 en:
+    abelli-initiative: |
+        An <a href="http://abelli-asbl.be">Abelli</a> initative.
     gold: "Platinium partners"
     silver: "Gold partners"
     bronze: "Silver partners"
@@ -54,6 +58,8 @@ en:
     village_com: Community
     location_booth: Location
 nl:
+    abelli-initiative: |
+        Een initiatief van <a href="http://abelli-asbl.be">Abelli</a>.
     gold: "Platinium partners"
     silver: "Gold partners"
     bronze: "Silver partners"

@@ -339,6 +339,18 @@ body.not-front #languages li.de {
     color: #999;
 }
 
+#footer div.flexcen div{
+    margin: 0px 50px;
+}
+#footer div.flexcen{
+      display: flex;
+      align-items: center;
+      align-content: center;
+          justify-content: center;
+}
+#footer div.light{
+    color: #eeeeee;
+}
 #media-kit-examples textarea {
     width: 530px;
     height: 65px;
