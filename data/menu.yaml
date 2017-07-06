@@ -24,9 +24,6 @@ nl:
                 name: Publieksweekend
                 url: /nl/publieksweekend.html
             -
-                name: Reservering
-                url: https://reservation.rmll.info
-            -
                 name: Libre Avondmaal
                 url: /nl/libre-avondmaal.html
             -
@@ -83,9 +80,6 @@ fr:
             -
                 name: Journées Grand Public
                 url: /fr/journees-grand-public.html
-            -
-                name: Réservations
-                url: https://reservation.rmll.info
             -
                 name: Repas du libre
                 url: /fr/repas-du-libre.html
@@ -160,9 +154,6 @@ en:
             -
                 name: General Public Weekend
                 url: /en/general-public-weekend.html
-            -
-                name: Booking
-                url: https://reservation.rmll.info
             -
                 name: Libre Dinner
                 url: /en/libre-dinner.html

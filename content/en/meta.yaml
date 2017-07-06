@@ -17,8 +17,5 @@ sidebar:
         name: '%LPI% CERTIFICATION'
         url: /en/lpi.html
     -
-        name: 'BOOKING'
-        url: https://reservation.rmll.info
-    -
         name: '%RADIO% RMLL'
         url: https://radio.rmll.info
